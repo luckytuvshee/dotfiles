@@ -1,0 +1,260 @@
+# i3 config file (v4)
+#
+# Please see https://i3wm.org/docs/userguide.html for a complete reference!
+# luckytuvshee.github.io
+
+set $mod Mod4
+set $alt Mod1
+
+font pango:Monaco 10
+
+# auto start
+exec_always --no-startup-id xrdb ~/.Xresources
+exec_always --no-startup-id setxkbmap -model pc104 -layout us,mn -option grp:alt_shift_toggle
+exec_always --no-startup-id feh --bg-scale /home/luckytuvshee/.config/california_wallpaper.jpg
+
+# i3 Gaps Config
+gaps inner 20
+gaps horizontal 20
+gaps vertical 20
+
+# Border Settings
+default_border pixel 1
+hide_edge_borders both
+
+# Launch compton or picom
+exec_always --no-startup-id picom -b
+
+# Launch dunst (notification daemon)
+exec --no-startup-id /usr/bin/dunst
+
+# Launch Polybar // give permission to shell script by chmod +x launch.sh
+exec_always --no-startup-id /home/luckytuvshee/.config/polybar/launch.sh &
+
+# This font is widely installed, provides lots of unicode glyphs, right-to-left
+# text rendering and scalability on retina/hidpi displays (thanks to pango).
+#font pango:DejaVu Sans Mono 8
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+# start a terminal
+bindsym $mod+Return exec urxvt 
+
+
+# kill focused window
+bindsym Mod1+F4 kill
+
+# start dmenu (a program launcher)
+#bindsym $mod+d exec dmenu_run
+# There also is the (new) i3-dmenu-desktop which only displays applications
+# shipping a .desktop file. It is a wrapper around dmenu, so you need that
+# installed.
+# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+
+# start dmenu (a program launcher)
+bindsym $mod+d exec --no-startup-id rofi -lines 12 -padding 18 -width 40 -location 0 -show drun -theme ~/.config/rofi/coffee.rasi
+
+
+
+# start ranger file manager
+bindsym $mod+Shift+e exec --no-startup-id kitty -e ranger -r ~/.zshrc
+
+# start cmus music player
+bindsym $mod+Shift+s exec --no-startup-id kitty -e cmus ~/.config/cmus
+
+## music
+# toggle music for cmus
+bindsym Control+$alt+P exec --no-startup-id playerctl -p cmus play-pause
+# toggle music for global
+bindsym Control+$alt+G exec --no-startup-id playerctl play-pause
+
+# previous music for cmus
+#bindsym F6 exec --no-startup-id playerctl -p cmus previous 
+bindsym F6 exec --no-startup-id cmus-remote --prev
+# next music for cmus
+bindsym F7 exec --no-startup-id playerctl -p cmus next
+
+
+# lock screen
+bindsym Control+Mod1+l exec i3lock -i ~/.config/lockscreen_wallpaper.png
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+# exit i3 (logs you out of your X session)
+bindsym $mod+Control+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+# change focus
+bindsym $mod+j focus left
+bindsym $mod+k focus down
+bindsym $mod+l focus up
+bindsym $mod+semicolon focus right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+j move left
+bindsym $mod+Shift+k move down
+bindsym $mod+Shift+l move up
+bindsym $mod+Shift+semicolon move right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# split in horizontal orientation
+bindsym $mod+h split h
+
+# split in vertical orientation
+bindsym $mod+v split v
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+# toggle tiling / floating
+bindsym $mod+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+Shift+space focus mode_toggle
+
+# focus the parent container
+bindsym $mod+a focus parent
+
+# focus the child container
+#bindsym $mod+d focus child
+
+# Define names for default workspaces for which we configure key bindings later on.
+# We use variables to avoid repeating the names in multiple places.
+
+set $ws1 "1  h0me"
+set $ws2 "2  term1nal"
+set $ws3 "3  c0de"
+set $ws4 "4  ed4tor"
+set $ws5 "5  music"
+set $ws6 "6  rec"
+set $ws7 "7  note"
+set $ws8 "8  watch"
+set $ws9 "9 anime"
+set $ws10 "10 other"
+
+# switch through workspaces
+# PageUp -> Prior
+# PageDown -> Next
+bindsym Control+$alt+Left workspace prev
+bindsym Control+$alt+Right workspace next
+
+
+# switch to workspace
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+
+# resize window (you can also use the mouse for that)
+mode "resize" {
+        # These bindings trigger as soon as you enter the resize mode
+
+        # Pressing left will shrink the window’s width.
+        # Pressing right will grow the window’s width.
+        # Pressing up will shrink the window’s height.
+        # Pressing down will grow the window’s height.
+        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym k resize grow height 10 px or 10 ppt
+        bindsym l resize shrink height 10 px or 10 ppt
+        bindsym semicolon resize grow width 10 px or 10 ppt
+
+        # same bindings, but for the arrow keys
+        bindsym Left resize shrink width 5 px or 5 ppt
+        bindsym Down resize grow height 5 px or 5 ppt
+        bindsym Up resize shrink height 5 px or 5 ppt
+        bindsym Right resize grow width 5 px or 5 ppt
+
+        # back to normal: Enter or Escape or $mod+r
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+# colour of border, background, text, indicator, and child_border
+client.focused              #eee #2f343f #d8dee8 #bf616a #e37bb9
+client.focused_inactive     #2f343f #2f343f #d8dee8 #2f343f #2f343f
+client.unfocused            #2f343f #2f343f #d8dee8 #2f343f #2f343f
+client.urgent               #2f343f #2f343f #d8dee8 #2f343f #2f343f
+client.placeholder          #2f343f #2f343f #d8dee8 #2f343f #2f343f
+client.background           #2f343f
+
+## Screenshot
+# Save with selection
+bindsym Shift+Insert exec --no-startup-id escrotum -s ~/Pictures/Screenshots/Screenshot_from_`date +%Y-%m-%d_%H-%M-%S`.png
+
+# Save with full screen
+bindsym Insert exec --no-startup-id escrotum ~/Pictures/Screenshots/Screenshot_from_`date +%Y-%m-%d_%H-%M-%S`.png
+
+# Copy to clipboard with selection
+bindsym Shift+Print exec --no-startup-id escrotum -s -C ~/Pictures/Screenshots/Screenshot_from_`date +%Y-%m-%d_%H-%M-%S`.png
+
+# Copy to clipboard with full screen
+bindsym Print exec --no-startup-id escrotum -C ~/Pictures/Screenshots/Screenshot_from_`date +%Y-%m-%d_%H-%M-%S`.png
+
+# Pulse Audio controls
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+
+# Sreen brightness controls // install light package - sudo pacman -S light
+bindsym XF86MonBrightnessUp exec --no-startup-id light -A 10 # increase screen brightness
+bindsym XF86MonBrightnessDown exec --no-startup-id light -U 10 # decrease screen brightness
+
+
+# Screen rotation
+bindsym Control+$mod+Left exec --no-startup-id xrandr -o left
+bindsym Control+$mod+Right exec --no-startup-id xrandr -o right
+bindsym Control+$mod+Up exec --no-startup-id xrandr -o normal
+bindsym Control+$mod+Down exec --no-startup-id xrandr -o inverted
+
+# Zoom
+bindsym $mod+equal exec --no-startup-id xzoom
+
+######################################
+
+# Before i3 v4.8, we used to recommend this one as the default:
+# font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+# The font above is very space-efficient, that is, it looks good, sharp and
+# clear in small sizes. However, its unicode glyph coverage is limited, the old
+# X core fonts rendering does not support right-to-left and this being a bitmap
+# font, it doesn’t scale on retina/hidpi displays.
+
+
