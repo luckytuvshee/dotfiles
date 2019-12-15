@@ -15,6 +15,7 @@
 * thunar
 * cmus
 * escrotum (aur)
+* light (Screen brightness controller)
 
 ## Useful notes
 * Get window class name of application using xprop package
