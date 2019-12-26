@@ -24,6 +24,11 @@ alias edit='subl3'
 # Path to your oh-my-zsh installation.
 export ZSH="/home/luckytuvshee/.oh-my-zsh"
 
+# Keybindings
+
+# ctrl+backspace to delete previous word
+bindkey '^H' backward-kill-word
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
