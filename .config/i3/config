@@ -6,7 +6,7 @@
 set $mod Mod4
 set $alt Mod1
 
-font pango:Monaco 10
+font pango:monaco 10
 
 # auto start
 exec_always --no-startup-id xrdb ~/.Xresources
@@ -14,13 +14,9 @@ exec_always --no-startup-id setxkbmap -model pc104 -layout us,mn -option grp:alt
 exec_always --no-startup-id feh --bg-scale /home/luckytuvshee/.config/california_wallpaper.jpg
 
 # i3 Gaps Config
-gaps inner 20
-gaps horizontal 20
-gaps vertical 20
-
-# Border Settings
-default_border pixel 1
-hide_edge_borders both
+gaps inner 10
+gaps horizontal 10
+gaps vertical 30
 
 # Launch compton or picom
 exec_always --no-startup-id picom -b
@@ -139,16 +135,16 @@ bindsym $mod+a focus parent
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 
-set $ws1 "1  h0me"
-set $ws2 "2  term1nal"
-set $ws3 "3  c0de"
-set $ws4 "4  ed4tor"
-set $ws5 "5  music"
-set $ws6 "6  rec"
-set $ws7 "7  note"
-set $ws8 "8  watch"
-set $ws9 "9 anime"
-set $ws10 "10 other"
+set $ws1 "1: h0me"
+set $ws2 "2: term1nal"
+set $ws3 "3: c0de"
+set $ws4 "4: ed4tor"
+set $ws5 "5: music"
+set $ws6 "6: rec"
+set $ws7 "7: note"
+set $ws8 "8: watch"
+set $ws9 "9:anime"
+set $ws10 "10:other"
 
 # switch through workspaces
 # PageUp -> Prior
@@ -208,13 +204,13 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# colour of border, background, text, indicator, and child_border
-client.focused              #d96fd6 #2f343f #d8dee8 #bf616a #e37bb9
-client.focused_inactive     #2f343f #2f343f #d8dee8 #2f343f #2f343f
-client.unfocused            #2f343f #2f343f #d8dee8 #2f343f #2f343f
-client.urgent               #2f343f #2f343f #d8dee8 #2f343f #2f343f
-client.placeholder          #2f343f #2f343f #d8dee8 #2f343f #2f343f
-client.background           #2f343f
+# Theme colors
+# class                   border  backgr. text    indic.   child_border
+client.focused          #233446 #233446 #ffffff #2e9ef4   #285577
+client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
+client.unfocused        #333333 #222222 #888888 #292d2e   #222222
+client.urgent           #2f343a #900000 #ffffff #900000   #900000
+client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
 ## Screenshot
 # Save with selection
