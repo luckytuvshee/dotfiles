@@ -17,6 +17,7 @@
 * cmus
 * escrotum (aur)
 * light (Screen brightness controller)
+* playerctl (for controlling audio)
 
 ## Useful notes
 * Get window class name of application using xprop package
