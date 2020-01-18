@@ -18,6 +18,8 @@
 * escrotum (aur)
 * light (Screen brightness controller)
 * playerctl (for controlling audio)
+* ttf-font-awesome
+* awesome-terminal-fonts (make fontawesome font bigger)
 
 ## Useful notes
 * Get window class name of application using xprop package
