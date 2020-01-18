@@ -16,7 +16,7 @@ monitor = ${env:MONITOR:eDP-1}
 ; Note: With this most WMs will no longer reserve space for 
 ; the bar and it will overlap other windows. You need to configure
 ; your WM to add a gap where the bar will be placed.
-override-redirect = true
+override-redirect = false
 
 ; Put the bar at the bottom of the screen
 top = true
@@ -28,7 +28,7 @@ fixed-center = true
 ; Dimension defined as pixel value (e.g. 35) or percentage (e.g. 50%),
 ; the percentage can optionally be extended with a pixel offset like so:
 ; 50%:-10, this will result in a width or height of 50% minus 10 pixels
-width = 97.25%
+width = 100%
 height = 40
 
 ; Offset defined as pixel value (e.g. 35) or percentage (e.g. 50%)
@@ -108,9 +108,9 @@ font-2 = FontAwesome5Brands:style=Regular:size=10;2
 ;   modules-left = cpu ram
 ;   modules-center = xwindow xbacklight
 ;   modules-right = ipc clock
-modules-left = volume
+modules-left = volume backlight battery
 modules-center = i3
-modules-right = sep temperature sep memory sep cpu sep date
+modules-right = xkeyboard wlan date time
 
 ; The separator will be inserted between the output of each module
 separator =
@@ -209,7 +209,7 @@ monitor = ${env:MONITOR:eDP-1}
 ; Note: With this most WMs will no longer reserve space for 
 ; the bar and it will overlap other windows. You need to configure
 ; your WM to add a gap where the bar will be placed.
-override-redirect = true
+override-redirect = false
 
 ; Put the bar at the bottom of the screen
 bottom = true
@@ -221,8 +221,8 @@ fixed-center = true
 ; Dimension defined as pixel value (e.g. 35) or percentage (e.g. 50%),
 ; the percentage can optionally be extended with a pixel offset like so:
 ; 50%:-10, this will result in a width or height of 50% minus 10 pixels
-width = 97.25%
-height = 40
+width = 100%
+height = 27
 
 ; Offset defined as pixel value (e.g. 35) or percentage (e.g. 50%)
 ; the percentage can optionally be extended with a pixel offset like so:
@@ -272,6 +272,7 @@ line-color = #f00
 ; Number of spaces to add at the beginning/end of the bar
 ; Individual side values can be defined using:
 ;   padding-{left,right}
+padding-left = 4
 padding-right = 4
 
 ; Number of spaces to add before/after each module
@@ -300,9 +301,9 @@ font-2 = FontAwesome5Brands:style=Regular:size=10;2
 ;   modules-left = cpu ram
 ;   modules-center = xwindow xbacklight
 ;   modules-right = ipc clock
-modules-left = 
-modules-center = i3
-modules-right = sep temperature sep memory sep cpu sep date
+modules-left = cmus
+modules-center = 
+modules-right = sep temperature sep memory sep cpu
 
 ; The separator will be inserted between the output of each module
 separator =
@@ -472,6 +473,62 @@ ramp-volume-0 = 
 ramp-volume-1 = 
 ramp-volume-2 = 
 
+[module/backlight]
+type = internal/xbacklight
+
+; Use the following command to list available cards:
+; $ ls -1 /sys/class/backlight/
+card = radeon_bl0
+
+format = <ramp> <label>
+
+label = %percentage%%
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+
+[module/battery]
+type = internal/battery
+
+battery = BAT0
+
+poll-interval = 1
+
+full-at = 95
+
+label-discharging = %percentage%%
+label-charging = %percentage%%
+label-full = %percentage%%
+
+format-discharging = <ramp-capacity> <label-discharging>
+format-full = <ramp-capacity> <label-full>
+format-charging =  <label-charging>
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+
+[module/wlan]
+type = internal/network
+
+interface = wlo1
+
+interval = 5
+
+label-connected =  %essid%
+label-disconnected =  Not Connected
+
+[module/cmus]
+type = custom/script
+exec = ~/.config/polybar/cmus.sh
+interval = 1
+click-left = cmus-remote -n &
+click-right = cmus-remote -r &
+click-middle = cmus-remote -u &
+
 [module/date]
 type = internal/date
 
@@ -480,19 +537,37 @@ interval = 1.0
 
 ; See "http://en.cppreference.com/w/cpp/io/manip/put_time" for details on how to format the date string
 ; NOTE: if you want to use syntax tags here you need to use %%{...}
-date = %Y %b %d%
+;date = %Y %b %d%
+
+date =  %e %B, %Y - %A
 
 ; Optional time format
-time = %I:%M %p
+;time = %I:%M %p
 
 ; if `date-alt` or `time-alt` is defined, clicking
 ; the module will toggle between formats
-date-alt = %A, %d %B %Y
-time-alt = %H:%M:%S
+;date-alt = %A, %d %B %Y
+;time-alt = %H:%M:%S
 
-label = %date%, %time% 
+label = %date%
 label-font = 0
 label-foreground = #eeeeee
+
+[module/time]
+type = internal/date
+
+interval = 1.0
+
+date =  %H:%M %p
+
+[module/xkeyboard]
+type = internal/xkeyboard
+
+; List of indicators to ignore
+blacklist-0 = num lock
+blacklist-1 = scroll lock
+format = <label-indicator> <label-layout>
+label-layout-padding = 2
 
 [module/wireless-network]
 type = internal/network

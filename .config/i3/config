@@ -16,9 +16,14 @@ exec_always --no-startup-id feh --bg-scale /home/luckytuvshee/.config/california
 # i3 Gaps Config
 gaps inner 10
 gaps horizontal 10
-gaps vertical 30
+gaps vertical 10
+
+# Border Settings
+default_border pixel 1
+hide_edge_borders both
 
 # Launch compton or picom
+exec_always --no-startup-id killall -q picom
 exec_always --no-startup-id picom -b
 
 # Launch dunst (notification daemon)
@@ -230,9 +235,9 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #i
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
-# Sreen brightness controls // install light package - sudo pacman -S light
-bindsym XF86MonBrightnessUp exec --no-startup-id light -A 10 # increase screen brightness
-bindsym XF86MonBrightnessDown exec --no-startup-id light -U 10 # decrease screen brightness
+# Sreen brightness controls - package: xorg-xbacklight
+bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10 # increase screen brightness
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10 # decrease screen brightness
 
 
 # Screen rotation
