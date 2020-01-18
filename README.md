@@ -5,8 +5,9 @@
 * urxvt (rxvt-unicode)
   * urxvt-resize-font-git (aur)
   * urxvt-perls
+* xclip (for youtube-dl and urxvt)
 * dunst (Notification daemon)
-* cava
+* cava (aur)
 * compton (or picom)
 * rofi
 * zsh (oh-my-zsh, autosuggestions)
