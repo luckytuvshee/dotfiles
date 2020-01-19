@@ -8,7 +8,7 @@
 * ranger
   to copy config from /usr/share/doc/ranger/config run this command on terminal
   > $ ranger --copy-config=all 
-* ranger - image preview with urxvt install this package
+* ranger - image preview with urxvt install this package [(document)](https://github.com/ranger/ranger/wiki/Image-Previews#with-urxvt)
   * rxvt-unicode-pixbuf (aur)
 * xclip (for youtube-dl and urxvt)
 * dunst (Notification daemon)
