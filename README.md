@@ -7,8 +7,7 @@
   * urxvt-perls
 * ranger
   to copy config from /usr/share/doc/ranger/config run this command on terminal
-  > ranger --copy-config=all 
-  
+  > $ ranger --copy-config=all 
   image preview with urxvt install this package
   * rxvt-unicode-pixbuf
 * xclip (for youtube-dl and urxvt)
