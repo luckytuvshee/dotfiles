@@ -21,10 +21,12 @@
 * feh
 * thunar
 * cmus
-* escrotum (aur)
 * playerctl (for controlling audio)
 * ttf-font-awesome
 * awesome-terminal-fonts (make fontawesome font bigger)
+* pinta
+* scrot
+* i3lock-color
 
 ## Useful notes
 * Get window class name of application using xprop package
