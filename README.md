@@ -10,6 +10,7 @@
   > $ ranger --copy-config=all 
 * ranger - image preview with urxvt install this package [(document)](https://github.com/ranger/ranger/wiki/Image-Previews#with-urxvt)
   * rxvt-unicode-pixbuf (aur)
+* ttf-iosevka (imbo, best powerline enabled font)
 * xclip (for youtube-dl and urxvt)
 * dunst (Notification daemon)
 * cava (aur)
