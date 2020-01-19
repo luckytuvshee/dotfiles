@@ -27,6 +27,7 @@
 * pinta
 * scrot
 * i3lock-color
+* tumbler (thumbnail)
 
 ## Useful notes
 * Get window class name of application using xprop package
