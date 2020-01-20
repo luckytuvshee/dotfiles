@@ -12,6 +12,7 @@
   * rxvt-unicode-pixbuf (aur)
 * ttf-iosevka (imho, best powerline enabled font)
 * xclip (for youtube-dl and urxvt)
+* maim (requires xclip for saving into clipboard)
 * dunst (Notification daemon)
 * cava (aur)
 * compton (or picom)
