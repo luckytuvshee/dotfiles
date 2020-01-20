@@ -9,14 +9,25 @@ export LANGUAGE=en_US.UTF-8
 #  exec startx
 #fi
 
-function aud()
-{
-        youtube-dl --extract-audio --audio-format mp3 $(xclip -o)
+function aud() {
+		
+    youtube-dl --extract-audio --audio-format mp3 $(xclip -o)
 }
 
-function vid()
-{
-        youtube-dl $(xclip -o)
+function vid() {
+    youtube-dl $(xclip -o)
+}
+
+function vidautosub() {
+		youtube-dl --write-auto-sub $(xclip -o)i
+}
+
+function vidsub() {
+		youtube-dl --write-srt --sub-lang en $(xclip -o)
+}
+
+function onlysub() {
+		youtube-dl --write-sub --sub-lang en $(xclip -o)
 }
 
 alias edit='subl3'

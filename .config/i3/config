@@ -9,9 +9,10 @@ set $alt Mod1
 font pango:monaco 10
 
 # auto start
+exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc
 exec_always --no-startup-id xrdb ~/.Xresources
 exec_always --no-startup-id setxkbmap -model pc104 -layout us,mn -option grp:alt_shift_toggle
-exec_always --no-startup-id feh --bg-scale /home/luckytuvshee/.config/california_wallpaper.jpg
+exec_always --no-startup-id feh --bg-scale ~/.config/mountain_wallpaper.jpg
 
 # i3 Gaps Config
 gaps inner 10
@@ -19,11 +20,12 @@ gaps horizontal 10
 gaps vertical 10
 
 # Border Settings
-default_border pixel 1
+# default_border pixel 0 is same as -> for_window [class="^.*"] border pixel 0
+default_border pixel 0 
 hide_edge_borders both
 
 # Launch compton or picom
-exec_always --no-startup-id killall -q picom
+# exec_always --no-startup-id killall -q picom
 exec_always --no-startup-id picom -b
 
 # Launch dunst (notification daemon)
@@ -54,15 +56,15 @@ bindsym Mod1+F4 kill
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id rofi -lines 12 -padding 18 -width 40 -location 0 -show drun -theme ~/.config/rofi/coffee.rasi
+bindsym $mod+d exec --no-startup-id rofi -lines 12 -padding 18 -width 40 -location 0 -show drun -theme ~/.config/rofi/rofi-theme.rasi
 
 
 
 # start ranger file manager
-bindsym $mod+Shift+e exec --no-startup-id kitty -e ranger -r ~/.zshrc
+bindsym $mod+Shift+e exec --no-startup-id urxvt -e ranger -r ~/.zshrc
 
 # start cmus music player
-bindsym $mod+Shift+s exec --no-startup-id kitty -e cmus ~/.config/cmus
+bindsym $mod+Shift+s exec --no-startup-id urxvt -e cmus ~/.config/cmus
 
 ## music
 # toggle music for cmus
@@ -78,7 +80,10 @@ bindsym F7 exec --no-startup-id playerctl -p cmus next
 
 
 # lock screen
-bindsym Control+Mod1+l exec i3lock -i ~/.config/lockscreen_wallpaper.png
+bindsym Control+Mod1+l exec --no-startup-id /home/luckytuvshee/.config/i3/lock.sh
+
+# auto lock
+
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -219,16 +224,22 @@ client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
 ## Screenshot
 # Save with selection
-bindsym Shift+Insert exec --no-startup-id escrotum -s ~/Pictures/Screenshots/Screenshot_from_`date +%Y-%m-%d_%H-%M-%S`.png
+bindsym Shift+Insert exec --no-startup-id maim -s ~/Pictures/Screenshots/Screenshot_from_`date +%Y-%m-%d_%H-%M-%S`.png
 
 # Save with full screen
-bindsym Insert exec --no-startup-id escrotum ~/Pictures/Screenshots/Screenshot_from_`date +%Y-%m-%d_%H-%M-%S`.png
+bindsym Insert exec --no-startup-id maim ~/Pictures/Screenshots/Screenshot_from_`date +%Y-%m-%d_%H-%M-%S`.png
 
 # Copy to clipboard with selection
-bindsym Shift+Print exec --no-startup-id escrotum -s -C ~/Pictures/Screenshots/Screenshot_from_`date +%Y-%m-%d_%H-%M-%S`.png
+bindsym Shift+Print exec --no-startup-id maim -s | xclip -selection clipboard -t image/png
 
 # Copy to clipboard with full screen
-bindsym Print exec --no-startup-id escrotum -C ~/Pictures/Screenshots/Screenshot_from_`date +%Y-%m-%d_%H-%M-%S`.png
+bindsym Print exec --no-startup-id maim | xclip -selection clipboard -t image/png
+
+# Save focused window
+bindsym Control+Insert exec --no-startup-id maim -i $(xdotool getactivewindow) ~/Pictures/Screenshots/Screenshot_from_`date +%Y-%m-%d_%H-%M-%S`.png
+
+# Copy focused window to clipboard
+bindsym Control+Print exec --no-startup-id maim -i $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume

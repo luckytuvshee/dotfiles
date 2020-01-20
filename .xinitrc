@@ -1,0 +1,4 @@
+#sxhkd &
+#bspwm
+i3
+

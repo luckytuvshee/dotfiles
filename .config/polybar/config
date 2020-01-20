@@ -79,8 +79,8 @@ line-color = #f00
 ; Number of spaces to add at the beginning/end of the bar
 ; Individual side values can be defined using:
 ;   padding-{left,right}
-padding-left = 4
-padding-right = 4
+padding-left = 3
+padding-right = 3
 
 ; Number of spaces to add before/after each module
 ; Individual side values can be defined using:
@@ -108,7 +108,7 @@ font-2 = FontAwesome5Brands:style=Regular:size=10;2
 ;   modules-left = cpu ram
 ;   modules-center = xwindow xbacklight
 ;   modules-right = ipc clock
-modules-left = volume backlight battery
+modules-left = volume backlight battery title
 modules-center = i3
 modules-right = xkeyboard wlan date time
 
@@ -272,8 +272,8 @@ line-color = #f00
 ; Number of spaces to add at the beginning/end of the bar
 ; Individual side values can be defined using:
 ;   padding-{left,right}
-padding-left = 4
-padding-right = 4
+padding-left = 3
+padding-right = 3
 
 ; Number of spaces to add before/after each module
 ; Individual side values can be defined using:
@@ -287,8 +287,8 @@ module-margin = 1
 ;   font-2 = Termsynu:size=8;-1
 ;   font-3 = FontAwesome:size=10
 ; See the Fonts wiki page for more details
-; 3.5 is the vertical offset
-font-0 = Monaco:size=10;3.5
+; 2.5 is the vertical offset
+font-0 = Monaco:size=10;2.5
 font-1 = FontAwesome5Free:style=Solid:size=10;2
 font-2 = FontAwesome5Brands:style=Regular:size=10;2
 ; brands is the type of that icon in FontAwesome; <i class="fab fa-codepen"></i>
@@ -302,8 +302,8 @@ font-2 = FontAwesome5Brands:style=Regular:size=10;2
 ;   modules-center = xwindow xbacklight
 ;   modules-right = ipc clock
 modules-left = cmus
-modules-center = 
-modules-right = sep temperature sep memory sep cpu
+modules-center = updates-arch-aur
+modules-right = root home sep memory sep cpu sep system-uptime-pretty
 
 ; The separator will be inserted between the output of each module
 separator =
@@ -464,10 +464,14 @@ label-focused-underline = #fba922
 label-focused-padding = 2
 
 [module/volume]
-type = internal/volume
+type = internal/pulseaudio
+
+; Use PA_VOLUME_UI_MAX (~153%) if true, or PA_VOLUME_NORM (100%) if false
+; Default: true
+use-ui-max = false
 
 format-volume = <ramp-volume> <label-volume>
-format-muted =  0%
+format-muted =  0%
 
 ramp-volume-0 = 
 ramp-volume-1 = 
@@ -487,6 +491,17 @@ label = %percentage%%
 ramp-0 = 
 ramp-1 = 
 ramp-2 = 
+
+[module/kernel]
+type = custom/script
+exec = uname -r
+interval = 1024
+
+[module/system-uptime-pretty]
+type = custom/script
+format-foreground = #888ba5
+exec = ~/.config/polybar/system-uptime-pretty.sh
+interval = 30
 
 [module/battery]
 type = internal/battery
@@ -524,10 +539,19 @@ label-disconnected =  Not Connected
 [module/cmus]
 type = custom/script
 exec = ~/.config/polybar/cmus.sh
+exec-if = pgrep -x cmus
 interval = 1
-click-left = cmus-remote -n &
-click-right = cmus-remote -r &
-click-middle = cmus-remote -u &
+; play/pause song
+click-left = cmus-remote -u &
+; next song
+scroll-down = cmus-remote -n &
+; previous song
+scroll-up = cmus-remote -r &
+
+[module/updates-arch-aur]
+type = custom/script
+exec = ~/.config/polybar/updates-arch.sh
+interval = 600
 
 [module/date]
 type = internal/date
@@ -539,7 +563,7 @@ interval = 1.0
 ; NOTE: if you want to use syntax tags here you need to use %%{...}
 ;date = %Y %b %d%
 
-date =  %e %B, %Y - %A
+date =  %b %e, %Y - %a
 
 ; Optional time format
 ;time = %I:%M %p
@@ -552,6 +576,10 @@ date =  %e %B, %Y - %A
 label = %date%
 label-font = 0
 label-foreground = #eeeeee
+
+[module/title]
+type = internal/xwindow
+label-maxlen = 40
 
 [module/time]
 type = internal/date
@@ -567,7 +595,9 @@ type = internal/xkeyboard
 blacklist-0 = num lock
 blacklist-1 = scroll lock
 format = <label-indicator> <label-layout>
-label-layout-padding = 2
+label-layout-padding = 0
+label-indicator-on-capslock = CAPS
+
 
 [module/wireless-network]
 type = internal/network
@@ -605,10 +635,67 @@ type = internal/cpu
 ; Default: 1
 interval = 0.5
 
-label =  %percentage%%
+label =  %percentage:3%%
 
 label-foreground = #4a7fa9
 label-padding-right = 1
+
+[module/root]
+type = internal/fs
+
+; Mountpoints to display
+mount-0 = /
+
+; Seconds to sleep between updates
+; Default: 30
+interval = 10
+
+; Display fixed precision values
+; Default: false
+fixed-values = true
+
+; Available tokens:
+;   %mountpoint%
+;   %type%
+;   %fsname%
+;   %percentage_free%
+;   %percentage_used%
+;   %total%
+;   %free%
+;   %used%
+; Default: %mountpoint% %percentage_free%%
+label-mounted =  %used%
+label-unmounted = /: not mounted
+label-mounted-foreground = #888ba5
+
+
+[module/home]
+type = internal/fs
+
+; Mountpoints to display
+mount-0 = /home
+
+; Seconds to sleep between updates
+; Default: 30
+interval = 10
+
+; Display fixed precision values
+; Default: false
+fixed-values = true
+
+; Available tokens:
+;   %mountpoint%
+;   %type%
+;   %fsname%
+;   %percentage_free%
+;   %percentage_used%
+;   %total%
+;   %free%
+;   %used%
+; Default: %mountpoint% %percentage_free%%
+label-mounted =  %used%
+label-unmounted = /home: not mounted
+label-mounted-foreground = #888ba5
 
 [module/memory]
 type = internal/memory

@@ -26,18 +26,46 @@ if info=$(cmus-remote -Q 2> /dev/null); then
 		fi
 
 		# Check if length of artist greater than 40
-		if [ ${#artist} -ge 40 ]; then
-			info_string="$title $info_string"
+		if [ ${#artist} -le 20 ]; then
+			IFS=','
+			read -a arr <<< "$artist"
+			artist=$arr
+
+			if [ ${#title} -ge 40 ]; then
+				IFS=','
+				read -a arr <<< "$title"
+				title=$arr
+
+				if [ "$title" = "$arr" ]; then
+					IFS='('
+					read -a arr2 <<< "$title"
+					title=$arr2
+				fi
+			fi
+
 		else
-			info_string="$artist - $title $info_string"
+			if [ ${#title} -ge 30 ]; then
+				IFS=','
+				read -a arr <<< "$title"
+				title=$arr
+
+				if [ "$title" = "$arr" ]; then
+					IFS='('
+					read -a arr2 <<< "$title"
+					title=$arr2
+				fi
+			fi
 		fi
+
+		
+		info_string="$artist - $title $info_string"
 		
 		if [ "$status" = "playing" ]; then
-			echo "(Playing) $info_string"
+			echo " $info_string"
 		elif [ "$status" = "paused" ]; then
-			echo "(Paused) $info_string"
+			echo " $info_string"
 		elif [ "$status" = "stopped" ]; then 
-			echo "(Stopped) $info_string"
+			echo " $info_string"
 		else
 			echo ""
 		fi

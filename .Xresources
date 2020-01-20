@@ -42,51 +42,52 @@
 ! ------------------------------------------------------------------------------
 ! Font configuration
 ! ------------------------------------------------------------------------------
-URxvt*font:                 	xft:Inconsolata Nerd Font Mono:pixelsize=18:minspace=False, xft:DejaVu Sans:pixelsize=18
-URxvt*boldFont:             	xft:Inconsolata Nerd Font Mono:pixelsize=18:minspace=False, xft:DejaVu Sans:pixelsize=18
+URxvt*font:                 xft:Iosevka:pixelsize=18:minspace=False, xft:DejaVu Sans:pixelsize=18
+URxvt*boldFont:             xft:Iosevka:pixelsize=18:minspace=False, xft:DejaVu Sans:pixelsize=18
 
 ! ------------------------------------------------------------------------------
 ! Xft Font Configuration
 ! ------------------------------------------------------------------------------
 
-Xft.autohint: 			0
-Xft.lcdfilter: 			lcddefault
-Xft.hintstyle: 			hintslight
-Xft.hinting: 			1
-Xft.antialias: 			1
-Xft.rgba: rgb
+Xft.autohint: 				0
+Xft.lcdfilter: 				lcddefault
+Xft.hintstyle: 				hintslight
+Xft.hinting: 				1
+Xft.antialias: 				1
+Xft.rgba: 					rgb
 
 ! ------------------------------------------------------------------------------
 ! URxvt configs
 ! ------------------------------------------------------------------------------
 
 ! font spacing
-URxvt.letterSpace:		0
-URxvt.lineSpace:		0
+URxvt.letterSpace:			0
+URxvt.lineSpace:			0
 
 ! general settings
-URxvt*saveline:			15000
+URxvt*saveline:				15000
 !URxvt*termName:			rxvt-256color
-URxvt*termName: 		rxvt-unicode
-URxvt*iso14755:			false
-URxvt*urgentOnBell:		true
+URxvt*termName: 			rxvt-unicode
+URxvt*iso14755:				false
+URxvt*urgentOnBell:			true
 
 
 ! appearance
-URxvt*depth:			24
-URxvt*scrollBar:		true
+URxvt*depth:				24
+URxvt*scrollBar:			true
 URxvt*scrollBar_right:		false
-URxvt*internalBorder:		24
+URxvt*internalBorder:		8
 URxvt*externalBorder:		0
-URxvt.geometry:			84x22
+URxvt.geometry:				84x22
 
 Xft*dpi:                	96
 Xft*antialias:          	true
 Xft*hinting:            	full
 
-URxvt.transparent:   		true
+URxvt.transparent:   		false
+URxvt.fading: 				20
 
-!URxvt.tintColor:		black
+!URxvt.tintColor:			black
 URxvt.shading:       		18
 
 
@@ -98,23 +99,23 @@ urxvt*scrollBar:        	false
 URxvt.perl-ext-common:		default,clipboard,url-select,keyboard-select,resize-font
 
 ! macros for clipboard and selection
-URxvt.copyCommand:		xclip -i -selection clipboard
-URxvt.pasteCommand:		xclip -o -selection clipboard
+URxvt.copyCommand:			xclip -i -selection clipboard
+URxvt.pasteCommand:			xclip -o -selection clipboard
 
 ! clipboard
 URxvt.keysym.Shift-Control-C:	perl:clipboard:copy
 URxvt.keysym.Shift-Control-V:	perl:clipboard:paste
 
-URxvt.keysym.M-C-v:		perl:clipboard:paste_escaped
+URxvt.keysym.M-C-v:			perl:clipboard:paste_escaped
 URxvt.keysym.M-Escape:		perl:keyboard-select:activate
-URxvt.keysym.M-s:		perl:keyboard-select:search
-URxvt.keysym.M-u:		perl:url-select:select_next
-URxvt.urlLauncher:		firefox
+URxvt.keysym.M-s:			perl:keyboard-select:search
+URxvt.keysym.M-u:			perl:url-select:select_next
+URxvt.urlLauncher:			firefox
 URxvt.underlineURLs:		true
-URxvt.urlButton:		1     
+URxvt.urlButton:			1     
 
-URxvt.resize-font.smaller:  	C-j
-URxvt.resize-font.bigger:   	C-k
+URxvt.resize-font.smaller:  C-j
+URxvt.resize-font.bigger:  	C-k
 
 ! scroll one line
 URxvt.keysym.Shift-Up:		command:\033]720;1\007
