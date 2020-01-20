@@ -10,6 +10,7 @@
   > $ ranger --copy-config=all 
 * ranger - image preview with urxvt install this package [(document)](https://github.com/ranger/ranger/wiki/Image-Previews#with-urxvt)
   * rxvt-unicode-pixbuf (aur)
+* tumbler (thumbnail)
 * ttf-iosevka (imho, best powerline enabled font)
 * xclip (for youtube-dl and urxvt)
 * maim (requires xclip for saving into clipboard)
@@ -26,9 +27,9 @@
 * ttf-font-awesome
 * awesome-terminal-fonts (make fontawesome font bigger)
 * pinta
-* scrot
+* maim
+* xdotool (to get current focused window)
 * i3lock-color
-* tumbler (thumbnail)
 
 ## Useful notes
 * Get window class name of application using xprop package
