@@ -100,7 +100,7 @@ Xft*dpi:                	96
 Xft*antialias:          	true
 Xft*hinting:            	full
 
-URxvt.transparent:   		false
+URxvt.transparent:   		true
 !URxvt.fading: 				20
 
 !URxvt.tintColor:			black
