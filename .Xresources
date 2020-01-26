@@ -101,7 +101,7 @@ Xft*antialias:          	true
 Xft*hinting:            	full
 
 URxvt.transparent:   		false
-URxvt.fading: 				20
+!URxvt.fading: 				20
 
 !URxvt.tintColor:			black
 URxvt.shading:       		18

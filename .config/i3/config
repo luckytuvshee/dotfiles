@@ -12,16 +12,22 @@ font pango:monaco 10
 exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc
 exec_always --no-startup-id xrdb ~/.Xresources
 exec_always --no-startup-id setxkbmap -model pc104 -layout us,mn -option grp:alt_shift_toggle
-exec_always --no-startup-id feh --bg-scale ~/.config/mountain_wallpaper.jpg
+exec_always --no-startup-id feh --bg-scale ~/.config/bill_gates_quote_wallpaper.jpg
 
 # i3 Gaps Config
 gaps inner 10
 gaps horizontal 10
 gaps vertical 10
 
+# Close all apps
+bindsym $mod+Shift+q [class=".*"] kill
+
+# Floating
+for_window [class="firefox" title="^Library"] floating enable
+
 # Border Settings
 # default_border pixel 0 is same as -> for_window [class="^.*"] border pixel 0
-default_border pixel 0 
+default_border pixel 1
 hide_edge_borders both
 
 # Launch compton or picom
@@ -61,7 +67,7 @@ bindsym $mod+d exec --no-startup-id rofi -lines 12 -padding 18 -width 40 -locati
 
 
 # start ranger file manager
-bindsym $mod+Shift+e exec --no-startup-id urxvt -e ranger -r ~/.zshrc
+bindsym $mod+Shift+e exec --no-startup-id urxvt -e ranger -r ~/.config/ranger
 
 # start cmus music player
 bindsym $mod+Shift+s exec --no-startup-id urxvt -e cmus ~/.config/cmus
@@ -145,14 +151,14 @@ bindsym $mod+a focus parent
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 
-set $ws1 "1: h0me"
-set $ws2 "2: term1nal"
-set $ws3 "3: c0de"
-set $ws4 "4: ed4tor"
-set $ws5 "5: music"
-set $ws6 "6: rec"
-set $ws7 "7: note"
-set $ws8 "8: watch"
+set $ws1 "1:h0me"
+set $ws2 "2:term1nal"
+set $ws3 "3:c0de"
+set $ws4 "4:ed4tor"
+set $ws5 "5:music"
+set $ws6 "6:rec"
+set $ws7 "7:note"
+set $ws8 "8:watch"
 set $ws9 "9:anime"
 set $ws10 "10:other"
 
@@ -216,9 +222,9 @@ bindsym $mod+r mode "resize"
 
 # Theme colors
 # class                   border  backgr. text    indic.   child_border
-client.focused          #233446 #233446 #ffffff #2e9ef4   #285577
+client.focused          #233446 #233446 #ffffff #333333   #ffffff
 client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
-client.unfocused        #333333 #222222 #888888 #292d2e   #222222
+client.unfocused        #333333 #222222 #888888 #292d2e   #233446
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
 client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 

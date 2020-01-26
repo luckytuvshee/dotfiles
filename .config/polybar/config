@@ -95,7 +95,7 @@ module-margin = 1
 ;   font-3 = FontAwesome:size=10
 ; See the Fonts wiki page for more details
 ; 3.5 is the vertical offset
-font-0 = Monaco:size=10;3.5
+font-0 = Iosevka:size=12;3.5
 font-1 = FontAwesome5Free:style=Solid:size=10;2
 font-2 = FontAwesome5Brands:style=Regular:size=10;2
 ; brands is the type of that icon in FontAwesome; <i class="fab fa-codepen"></i>
@@ -288,7 +288,7 @@ module-margin = 1
 ;   font-3 = FontAwesome:size=10
 ; See the Fonts wiki page for more details
 ; 2.5 is the vertical offset
-font-0 = Monaco:size=10;2.5
+font-0 = Iosevka:size=12;3
 font-1 = FontAwesome5Free:style=Solid:size=10;2
 font-2 = FontAwesome5Brands:style=Regular:size=10;2
 ; brands is the type of that icon in FontAwesome; <i class="fab fa-codepen"></i>
@@ -303,7 +303,7 @@ font-2 = FontAwesome5Brands:style=Regular:size=10;2
 ;   modules-right = ipc clock
 modules-left = cmus
 modules-center = updates-arch-aur
-modules-right = root home sep memory sep cpu sep system-uptime-pretty
+modules-right = temperature sep root home sep memory sep cpu sep system-uptime-pretty
 
 ; The separator will be inserted between the output of each module
 separator =
@@ -389,16 +389,16 @@ enable-ipc = false
 [module/i3]
 type = internal/i3
 
-ws-icon-0 = 1: h0me;
-ws-icon-1 = 2: term1nal;
-ws-icon-2 = 3: c0de;
-ws-icon-3 = 4: ed4tor;
-ws-icon-4 = 5: music;
-ws-icon-5 = 6: rec;
-ws-icon-6 = 7: note;
-ws-icon-7 = 8: watch;
-ws-icon-8 = 9:anime;
-ws-icon-9 = 10:other;
+ws-icon-0 = 1:h0me;
+ws-icon-1 = 2:term1nal;
+ws-icon-2 = 3:c0de;
+ws-icon-3 = 4:ed4tor;
+ws-icon-4 = 5:music;
+ws-icon-5 = 6:rec;
+ws-icon-6 = 7:note;
+ws-icon-7 = 8:watch;
+ws-icon-8 = 9:anime;9
+ws-icon-9 = 10:other;10
 
 
 ; Only show workspaces defined on the same output as the bar
@@ -579,6 +579,7 @@ label-foreground = #eeeeee
 
 [module/title]
 type = internal/xwindow
+label = %title%
 label-maxlen = 40
 
 [module/time]
