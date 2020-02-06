@@ -1,6 +1,80 @@
-add ~/Music
-update-cache
 clear
+add ~/Music/EDM/House/Deep House/
+add ~/Music/EDM/House/Tropical House/
+add ~/Music/Eurobeat/
+update-cache
+add ~/Music/Pop/Synth-pop/
+pl-create Synth-pop
+add ~/Music/Pop/Pop-rap/
+pl-create Pop-rap
+live-filter 
+add ~/Music/Pop/K-pop/
+pl-create K-pop
+add ~/Music/Pop/J-pop/
+pl-create J-pop
+add ~/Music/EDM/Electronica/Glitch Hop/
+pl-create Glitch Hop
+pl-create Glitch-pop
+add ~/Music/Pop/Folk-pop/
+pl-create Folk-pop
+add ~/Music/Pop/Electro-pop/
+pl-create Electro-pop
+add ~/Music/Pop/Dance-pop/
+pl-create Dance-pop
+add ~/Music/Pop/Acoustic-pop/
+pl-create Acoustic-pop
+pl-
+add ~/Music/Acoustic-pop
+add ~/Music/Rock/
+pl-create Rock
+add ~/Music/Soundtrack/Tron: Legacy/
+pl-create Tron: Legacy
+pl-create 
+pl-create NieR: Automata
+add ~/Music/Soundtrack/NieR - Automata/
+add ~/Music/Soundtrack/Anime/
+pl-create Anime
+add ~/Music/Vocaloid/
+pl-create Vocaloid
+add ~/Music/EDM/House/Big Room/
+pl-create Big Room
+add ~/Music/EDM/House/Electro House/
+pl-create Electro House
+add ~/Music/EDM/Hardcore/
+pl-create Hardcore
+add ~/Music/EDM/House/Melodic House/
+pl-create Melodic House
+add ~/Music/EDM/Electronica
+pl-create Electronica
+add ~/Music/EDM/Electronic
+pl-create Electronic
+add ~/Music/EDM/House/Progressive House/
+add ~/Music/Eurodance/
+add ~/Music/Nightcore/
+pl-create Nightcore
+add ~/Music/Instrumental Hip Hop/
+pl-create Instrumental Hip Hop
+pl-create Hip Hop
+add ~/Music/Hip Hop/
+add ~/Music/EDM/
+add ~/Music/EDM/Trance/
+add ~/Music/EDM/Tr
+pl-create Trance
+pl-create Eurodance
+pl-create Eurobeat
+add ~/Music/House/Progressive House/
+pl-create Progressive House
+add ~/Music/House/Tropical House/
+pl-create Tropical House
+pl-create Deep House
+add ~/Music/House/Deep House/
+add ~/Music/'Deep House'/
+add ~/Music/Deep House
+pl-create LFZ
+pl-create Vexento
+pl-create EDM
+add ~/Music/EDM
+add ~/Music
 pl-create RinLen
 pl-create Emotional
 set format_title=%a - %t
@@ -10,7 +84,6 @@ Reol
 reol
 Kids
 kids
-pl-create EDM
 filter 
 set format_playlist= %-25%a %t%= %y %d %{?X!=0?%3X ?    }
 set format_playlist= %-21%a %t%= %y %d %{?X!=0?%3X ?    }

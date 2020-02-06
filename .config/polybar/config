@@ -546,7 +546,9 @@ click-left = cmus-remote -u &
 ; next song
 scroll-down = cmus-remote -n &
 ; previous song
-scroll-up = cmus-remote -r &
+scroll-up = cmus-remote -r &i
+; stop song
+click-right = cmus-remote -s & 
 
 [module/updates-arch-aur]
 type = custom/script
@@ -587,7 +589,7 @@ type = internal/date
 
 interval = 1.0
 
-date =  %H:%M %p
+date =  %I:%M %p
 
 [module/xkeyboard]
 type = internal/xkeyboard
