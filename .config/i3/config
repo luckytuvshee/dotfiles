@@ -11,19 +11,31 @@ font pango:monaco 10
 # auto start
 exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc
 exec_always --no-startup-id xrdb ~/.Xresources
-exec_always --no-startup-id setxkbmap -model pc104 -layout us,mn -option grp:alt_shift_toggle
+exec_always --no-startup-id setxkbmap -model pc104 -layout us,mn,se -option grp:alt_shift_toggle
 exec_always --no-startup-id feh --bg-scale ~/.config/bill_gates_quote_wallpaper.jpg
+exec_always --no-startup-id xbacklight -set 50
 
 # i3 Gaps Config
-gaps inner 10
-gaps horizontal 10
-gaps vertical 10
+gaps inner 5
+gaps horizontal 1
+gaps vertical 1
 
 # Close all apps
 bindsym $mod+Shift+q [class=".*"] kill
 
 # Floating
+# floating_minimum_size 800 x 500 
 for_window [class="firefox" title="^Library"] floating enable
+for_window [class="feh" title="^Farge"] floating enable
+for_window [class="matplotlib"] floating enable
+for_window [class="java-lang-Thread"] floating enable
+for_window [class="jetbrains-studio"] floating enable
+
+# webcam
+for_window [title="video0 - mpv"] floating enable
+for_window [title="video0 - mpv"] sticky enable
+
+bindsym $mod+c exec --no-startup-id ~/.config/i3/togglecam
 
 # Border Settings
 # default_border pixel 0 is same as -> for_window [class="^.*"] border pixel 0
@@ -64,19 +76,20 @@ bindsym Mod1+F4 kill
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id rofi -lines 12 -padding 18 -width 40 -location 0 -show drun -theme ~/.config/rofi/rofi-theme.rasi
 
-
-
 # start ranger file manager
 bindsym $mod+Shift+e exec --no-startup-id urxvt -e ranger -r ~/.config/ranger
 
 # start cmus music player
-bindsym $mod+Shift+s exec --no-startup-id urxvt -e cmus ~/.config/cmus
+bindsym $mod+Shift+c exec --no-startup-id urxvt -e cmus ~/.config/cmus
+
+# start python3
+bindsym $mod+Shift+p exec --no-startup-id urxvt -e python3
 
 ## music
 # toggle music for cmus
 bindsym Control+$alt+P exec --no-startup-id playerctl -p cmus play-pause
 # toggle music for global
-bindsym Control+$alt+G exec --no-startup-id playerctl play-pause
+bindsym Control+$alt+C exec --no-startup-id playerctl play-pause
 
 # previous music for cmus
 #bindsym F6 exec --no-startup-id playerctl -p cmus previous 
@@ -92,7 +105,7 @@ bindsym Control+Mod1+l exec --no-startup-id /home/luckytuvshee/.config/i3/lock.s
 
 
 # reload the configuration file
-bindsym $mod+Shift+c reload
+bindsym $mod+Shift+w reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
@@ -137,10 +150,10 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+space floating toggle
+bindsym $mod+Shift+f floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+Shift+space focus mode_toggle
+bindsym $mod+Shift+s focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -201,10 +214,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+        bindsym h resize shrink width 15 px or 15 ppt
+        bindsym j resize grow height 15 px or 15 ppt
+        bindsym k resize shrink height 15 px or 15 ppt
+        bindsym l resize grow width 15 px or 15 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 5 px or 5 ppt
@@ -224,9 +237,12 @@ bindsym $mod+r mode "resize"
 # class                   border  backgr. text    indic.   child_border
 client.focused          #233446 #233446 #ffffff #333333   #ffffff
 client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
-client.unfocused        #333333 #222222 #888888 #292d2e   #233446
+client.unfocused        #333333 #222222 #888888 #292d2e   #0E151D
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
 client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+
+# Python Color picker
+bindsym Control+Mod1+u exec --no-startup-id ~/colorpicker/colorpicker
 
 ## Screenshot
 # Save with selection
@@ -262,6 +278,9 @@ bindsym Control+$mod+Left exec --no-startup-id xrandr -o left
 bindsym Control+$mod+Right exec --no-startup-id xrandr -o right
 bindsym Control+$mod+Up exec --no-startup-id xrandr -o normal
 bindsym Control+$mod+Down exec --no-startup-id xrandr -o inverted
+
+# Stop xorg
+bindsym Control+Mod1+k exec --no-startup-id killall -q i3
 
 # Zoom
 bindsym $mod+equal exec --no-startup-id xzoom

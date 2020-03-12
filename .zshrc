@@ -5,13 +5,32 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
 
+export VISUAL=$(which zsh)
+export EDITOR="$VISUAL"
+
 #if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
 #  exec startx
 #fi
 
 function aud() {
-		
-    youtube-dl --extract-audio --audio-format mp3 $(xclip -o)
+	youtube-dl --extract-audio --audio-format mp3 $(xclip -o)
+}
+
+function aud() {
+	# $1 default value is 1
+	# $2 default value is last
+
+	if ! [ "$1" ]; then
+		youtube-dl --extract-audio --audio-format mp3 $(xclip -o)
+	elif ! [ "$2" ]; then
+		youtube-dl --playlist-start $1  --playlist-end $1 --extract-audio --audio-format mp3 $(xclip -o)
+	else
+		youtube-dl --playlist-start $1 --playlist-end $2 --extract-audio --audio-format mp3 $(xclip -o)
+	fi
+}
+
+function audi() {
+	youtube-dl --playlist-items $1 --extract-audio --audio-format mp3 $(xclip -o)
 }
 
 function vid() {
@@ -19,7 +38,7 @@ function vid() {
 }
 
 function vidautosub() {
-		youtube-dl --write-auto-sub $(xclip -o)i
+		youtube-dl --write-auto-sub $(xclip -o)
 }
 
 function vidsub() {
@@ -30,7 +49,38 @@ function onlysub() {
 		youtube-dl --write-sub --sub-lang en $(xclip -o)
 }
 
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+export PATH=$PATH:/home/luckytuvshee/.local/bin
+
+# React Native
+alias adb-shake='adb shell input keyevent 82'
+
+function rn-start() {
+	cd $1 && react-native start 
+}
+
+function rn-run() {
+	cd $1 && react-native run-android
+}
+
+alias pwr='poweroff'
+alias re='reboot'
+
+alias stx='startx'
+
+alias ra='ranger'
+
+alias calc='python3'
+alias py='python3'
+
 alias edit='subl3'
+
+alias update_youtube-dl='sudo pip install --upgrade youtube-dl'
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/luckytuvshee/.oh-my-zsh"

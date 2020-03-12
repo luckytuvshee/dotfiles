@@ -73,5 +73,5 @@ if info=$(cmus-remote -Q 2> /dev/null); then
 		echo ""
 	fi
 else
-	echo ""
+	echo
 fi

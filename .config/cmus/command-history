@@ -1,55 +1,148 @@
+PP
+set mouse=false
+set mouse=true
+set repeat=true
+set repeat=false
 clear
-add ~/Music/EDM/House/Deep House/
-add ~/Music/EDM/House/Tropical House/
-add ~/Music/Eurobeat/
+add ~/Music/Electronic Music/House/Modern Deep House/
+add ~/Music/Electronic Music/Electropop
+pl-create Electropop
+add ~/Music/Electronic Music/Hardcore/
+pl-create Hardcore
+add ~/Music/Electronic Music/Glitch Hop/
+pl-create Glitch Hop
+pl-create Modern Deep House
+add ~/Music/Electronic Music/House/Traditional Deep House/
+pl-create Traditional Deep House
+add ~/Music
+pl-create Deep House
+add ~/Music/Electronic Music/House/Future House/
+pl-create Future House
+add ~/Music/Electronic Music/House/Progressive House/
+pl-create Progressive Hous
+pl-create Tropical House
+clea
+set format_playlist_va= %-25%A %t (%a)%= %y %d %{?X!=0?%3X ?    }
+set format_playlist_va= %-25%a %t (%a)%= %y %d %{?X!=0?%3X ?    }
+set format_playlist_va= %-25%a %t% (%a)%= %y %d %{?X!=0?%3X ?    }
+set format_playlist_va= %-21%A %t (%a)%= %y %d %{?X!=0?%3X ?    }
+add ~/Music/Lofi/Nujebas - Singles & EPs/
+pl-create Nujabes - Singles & EPs
 update-cache
+add ~/Music/Lofi/Nujabes - Spiritual State (2011)/
+pl-create Nujabes - Spiritual State (2011)
+add ~/Music/Lofi/Nujabes - Modal Soul Classics II Dedicated to Nujabes (2010)/
+pl-create Nujabes - Modal Soul Classics II Dedicated to Nujabes (2010)
+add ~/Music/Lofi/Nujabes - Modal Soul Classics (2008)/
+pl-create Nujabes - Modal Soul Classics (2008)
+add ~/Music/Lofi/Nujabes - Modal Soul (2005)/
+pl-create Nujabes - Modal Sould (2005)
+add ~/Music/Lofi/Nujabes - Metaphorical Music (2003)/
+pl-create Metaphorical Music (2003)
+add ~/Music/Lofi/Nujabes - Hydeout Productions 2nd Collections (2007)/
+pl-create Nujabes - Hydeout Productions 2nd Collections (2007)
+add ~/Music/Lofi/Nujabes ft. Uyama Hiroto - Next View - Single (2003)/
+pl-create Nujabes ft. Uyama Hiroto - Next View - Single (2013)
+add ~/Music/Lofi/Nujabes - Free Soul Nujabes Second Collection (2014)/
+pl-create Nujabes - Free Sould Nujabes Second Collection (2014)
+add ~/Music/Lofi/Nujabes - Free Soul Nujabes First Collection (2014)/
+pl-create Nujabes - Free Soul Nujabes First Collection (2014)
+add ~/Music/Lofi/Nujabes - Departure (2004)/
+pl-create Nujabes - Departure (2004)
+add ~/Music/Lofi/DJ Okawari x Emily Styler - Restore (2018)/
+pl-create DJ Okawari x Emily Styler - Restore (2018)
+add ~/Music/Lofi/DJ Okawari - Nightfall (2019)/
+pl-create DJ Okawari - Nightfall (2019)
+add ~/Music/Lofi/DJ Okawari - Perfect Blue (2018)/
+pl-create DJ Okawari - Perfect Blue (2018)
+add ~/Music/Lofi/DJ Okawari - Mirror (2009)/
+claer
+pl-create DJ Okawari - Mirror (2009)
+add ~/Music/Lofi/DJ Okawari - Kaleidoscope (2011)/
+pl-create DJ Okawari - Kaleidoscope (2011)
+i
+add ~/Music/Lofi/DJ Okawari - Diorama (2008)/
+pl-create DJ Okawari - Diorama (2008)
+add ~/Music/Lofi/DJ Okawari - Compass (2017)/
+add ~/Music/Lofi/
+pl-create DJ Okawari - Compass (2017)
+add ~/Music/Neal K/
+pl-create Neal K
+add ~/Music/K-pop/
+pl-create K-pop
+add ~/Music/Eurodance/
+pl-create Eurodance
+add ~/Music/Eurobeat/
+pl-create Eurobeat
+add 
+add ~/Music/Vocaloid/
+add ~/Music/Vaporwave/
+add ~/Music/Electronic Music/House/Tropical House/
+add ~/Music/Electronic Music/Synth-pop (Synthesizer pop)/
+add ~/Music/
+add ~/Music/Swedish Music/
+add ~/Music/Pop/Synth-pop (Electro Pop)/
+add ~/Music/EDM/House/Tropical House/
+pl-create Acoustic-pop
+add ~/Music/Pop/Acoustic-pop/
+add ~/Music/Acoustic/
+pl-create Dance-pop
+add ~/Music/Pop/Dance-pop/
+add ~/Music/Pop/K-pop/
+add ~/Music/Swe
+pl-create Swedish Music
+pl-create Vaporwave
+add ~/Music/Cyperpunk/
+pl-create Cyberpunk
+add ~/Music/Pop/Synth-pop (aka Electro Pop)/
+add ~/Music/EDM/Electronic/
+pl-create Electronic
+add ~/Music/EDM/House/Deep House/
+add ~/Music/EDM/Hardcore/
+pl-create 
+cache-update
+live-filter 
+filter 
+pl-create Xomu
+add ~/Music/EDM/Electronic/Glitch Hop/
+pl-create Acoustic
+q
+set passwd=tuvshee
+set passwd luckytuvshee
+set password=tuvshee
 add ~/Music/Pop/Synth-pop/
 pl-create Synth-pop
 add ~/Music/Pop/Pop-rap/
 pl-create Pop-rap
-live-filter 
-add ~/Music/Pop/K-pop/
-pl-create K-pop
 add ~/Music/Pop/J-pop/
 pl-create J-pop
 add ~/Music/EDM/Electronica/Glitch Hop/
-pl-create Glitch Hop
 pl-create Glitch-pop
 add ~/Music/Pop/Folk-pop/
 pl-create Folk-pop
 add ~/Music/Pop/Electro-pop/
 pl-create Electro-pop
-add ~/Music/Pop/Dance-pop/
-pl-create Dance-pop
-add ~/Music/Pop/Acoustic-pop/
-pl-create Acoustic-pop
 pl-
 add ~/Music/Acoustic-pop
 add ~/Music/Rock/
 pl-create Rock
 add ~/Music/Soundtrack/Tron: Legacy/
 pl-create Tron: Legacy
-pl-create 
 pl-create NieR: Automata
 add ~/Music/Soundtrack/NieR - Automata/
 add ~/Music/Soundtrack/Anime/
 pl-create Anime
-add ~/Music/Vocaloid/
 pl-create Vocaloid
 add ~/Music/EDM/House/Big Room/
 pl-create Big Room
 add ~/Music/EDM/House/Electro House/
 pl-create Electro House
-add ~/Music/EDM/Hardcore/
-pl-create Hardcore
 add ~/Music/EDM/House/Melodic House/
 pl-create Melodic House
 add ~/Music/EDM/Electronica
 pl-create Electronica
 add ~/Music/EDM/Electronic
-pl-create Electronic
 add ~/Music/EDM/House/Progressive House/
-add ~/Music/Eurodance/
 add ~/Music/Nightcore/
 pl-create Nightcore
 add ~/Music/Instrumental Hip Hop/
@@ -60,13 +153,9 @@ add ~/Music/EDM/
 add ~/Music/EDM/Trance/
 add ~/Music/EDM/Tr
 pl-create Trance
-pl-create Eurodance
-pl-create Eurobeat
 add ~/Music/House/Progressive House/
 pl-create Progressive House
 add ~/Music/House/Tropical House/
-pl-create Tropical House
-pl-create Deep House
 add ~/Music/House/Deep House/
 add ~/Music/'Deep House'/
 add ~/Music/Deep House
@@ -74,7 +163,6 @@ pl-create LFZ
 pl-create Vexento
 pl-create EDM
 add ~/Music/EDM
-add ~/Music
 pl-create RinLen
 pl-create Emotional
 set format_title=%a - %t
@@ -84,7 +172,6 @@ Reol
 reol
 Kids
 kids
-filter 
 set format_playlist= %-25%a %t%= %y %d %{?X!=0?%3X ?    }
 set format_playlist= %-21%a %t%= %y %d %{?X!=0?%3X ?    }
 pl-create Favourites
