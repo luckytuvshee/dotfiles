@@ -1,6 +1,8 @@
 # Arch Linux + i3-gaps + Polybar dotfiles
 ## Packages
 * i3gaps, i3lock
+   * i3lock-color - improved i3lock
+   * imagemagick - for manipulating an image
 * polybar
 * urxvt (rxvt-unicode)
   * urxvt-resize-font-git (aur)
