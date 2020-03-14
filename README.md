@@ -37,3 +37,13 @@
 * Get window class name of application using xprop package
 * Disable PC speaker (BEEP) - Blacklisting the pcspkr module will prevent udev from loading it at boot:
 > echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
+
+---
+
+* arch with xfce, to fix locale when using display manager (such as SDDM and LightDM), add below lines to `/etc/profile`
+
+```
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8                                                         
+export LANGUAGE=en_U
+```
