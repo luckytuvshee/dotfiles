@@ -1,3 +1,11 @@
+clear
+add ~/Music/Vocaloid/
+pl-create Vexento
+add ~/Music/Electronic Music/House/Tropical House/
+add ~/Music/Rock/
+pl-create Rock
+add ~/Music/Electronic Music/Synth-pop (Synthesizer pop)/
+update-cache
 add ~/Music/Lofi/Nujabes - Singles & EPs/
 add ~/Music/Lofi/Nujabes - Sing
 PP
@@ -5,7 +13,6 @@ set mouse=false
 set mouse=true
 set repeat=true
 set repeat=false
-clear
 add ~/Music/Electronic Music/House/Modern Deep House/
 add ~/Music/Electronic Music/Electropop
 pl-create Electropop
@@ -30,7 +37,6 @@ set format_playlist_va= %-25%a %t% (%a)%= %y %d %{?X!=0?%3X ?    }
 set format_playlist_va= %-21%A %t (%a)%= %y %d %{?X!=0?%3X ?    }
 add ~/Music/Lofi/Nujebas - Singles & EPs/
 pl-create Nujabes - Singles & EPs
-update-cache
 add ~/Music/Lofi/Nujabes - Spiritual State (2011)/
 pl-create Nujabes - Spiritual State (2011)
 add ~/Music/Lofi/Nujabes - Modal Soul Classics II Dedicated to Nujabes (2010)/
@@ -77,10 +83,7 @@ pl-create Eurodance
 add ~/Music/Eurobeat/
 pl-create Eurobeat
 add 
-add ~/Music/Vocaloid/
 add ~/Music/Vaporwave/
-add ~/Music/Electronic Music/House/Tropical House/
-add ~/Music/Electronic Music/Synth-pop (Synthesizer pop)/
 add ~/Music/
 add ~/Music/Swedish Music/
 add ~/Music/Pop/Synth-pop (Electro Pop)/
@@ -126,8 +129,6 @@ add ~/Music/Pop/Electro-pop/
 pl-create Electro-pop
 pl-
 add ~/Music/Acoustic-pop
-add ~/Music/Rock/
-pl-create Rock
 add ~/Music/Soundtrack/Tron: Legacy/
 pl-create Tron: Legacy
 pl-create NieR: Automata
@@ -162,7 +163,6 @@ add ~/Music/House/Deep House/
 add ~/Music/'Deep House'/
 add ~/Music/Deep House
 pl-create LFZ
-pl-create Vexento
 pl-create EDM
 add ~/Music/EDM
 pl-create RinLen
