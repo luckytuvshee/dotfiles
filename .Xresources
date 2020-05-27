@@ -42,7 +42,7 @@
 *.color1: nord11
 *.color2: nord14
 *.color3: nord13
-*.color4: nord9
+*.color4: nord9 ! #4E667E is way cooler xD
 *.color5: nord15
 *.color6: nord8
 *.color7: nord5
