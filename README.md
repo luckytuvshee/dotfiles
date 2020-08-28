@@ -10,6 +10,10 @@
 * ranger
   to copy config from /usr/share/doc/ranger/config run this command on terminal
   > $ ranger --copy-config=all 
+  to use ranger-devicons on older version, copy .py to plugin directory
+  - ln -sf ~/.config/ranger/plugins/ranger_devicons/__init__.py ~/.config/ranger/plugins/__init__.py
+  - ln -sf ~/.config/ranger/plugins/ranger_devicons/devicons.py ~/.config/ranger/plugins/devicons.py
+  
 * ranger - image preview with urxvt install this package [(document)](https://github.com/ranger/ranger/wiki/Image-Previews#with-urxvt)
   * rxvt-unicode-pixbuf (aur)
 * tumbler (thumbnail)
