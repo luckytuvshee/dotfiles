@@ -1,0 +1,32 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.fontFamily": "Iosevka",
+    "editor.fontFamily": "Anonymous Pro",
+    // "editor.fontFamily": "Iosevka",
+    "editor.fontSize": 16,
+    "workbench.startupEditor": "newUntitledFile",
+    "code-runner.executorMap": {
+      "python": "$pythonPath $fullFileName"
+    },
+    "editor.tabSize": 2,
+    "[python]": {
+      "editor.tabSize": 4
+    },
+    "[php]": {
+      "editor.tabSize": 4
+    },
+    "window.zoomLevel": 0,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.colorTheme": "Nord",
+    "emmet.includeLanguages": {
+      "django-html": "html"
+    },
+    "tailwindCSS.includeLanguages": {
+      "plaintext": "vue"
+    },
+    "editor.formatOnSave": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+  }
