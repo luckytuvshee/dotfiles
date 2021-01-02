@@ -50,7 +50,7 @@ window,
 
 window,
 #nav-bar {
-  background-color: green !important;
+  background-color: var(--base_color4) !important;
 
   -moz-appearance: none !important;
 
