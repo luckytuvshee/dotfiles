@@ -1,0 +1,9 @@
+[2021-01-04 00:40:47.397] [renderer2] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/luckytuvshee/unixporn/bspwm_aesthetic_anime/.vscode'
+[2021-01-04 00:40:53.640] [renderer2] [error] Server returned 503: Error: Server returned 503
+    at Object.t.asJson (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2005:677)
+    at V.queryGallery (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2195:334)
+    at async V.query (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:282)
+    at async k.promptRecommendedExtensionForFileExtension (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:6354:684)
+[2021-01-04 01:16:07.509] [renderer2] [warning] Settings pattern "workbench.fontAliasing" doesn't match any settings
+[2021-01-04 01:16:07.514] [renderer2] [warning] Settings pattern "settingsSync.*" doesn't match any settings
+[2021-01-04 01:16:07.514] [renderer2] [warning] Settings pattern "sync.*" doesn't match any settings

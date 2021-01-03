@@ -1,0 +1,6 @@
+[2021-01-03 23:56:49.580] [renderer5] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/luckytuvshee/unixporn/bspwm_aesthetic_anime/.vscode'
+[2021-01-03 23:56:57.815] [renderer5] [error] Server returned 503: Error: Server returned 503
+    at Object.t.asJson (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2005:677)
+    at V.queryGallery (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2195:334)
+    at async V.query (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2194:282)
+    at async k.promptRecommendedExtensionForFileExtension (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:6354:684)

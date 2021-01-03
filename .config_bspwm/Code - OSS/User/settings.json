@@ -1,0 +1,7 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Nord",
+    "editor.fontFamily": "VictorMono Nerd Font",
+    "editor.fontSize": 16,
+    "workbench.startupEditor": "newUntitledFile"
+}

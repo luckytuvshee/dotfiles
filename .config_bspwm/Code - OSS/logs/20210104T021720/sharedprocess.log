@@ -1,0 +1,14 @@
+[2021-01-04 02:17:23.671] [sharedprocess] [info] main {"machineId":"7f13562a63fca3bd1ecfad360cfa18014d02125c90859968b92c02d2cda11cee","windowId":2}
+[2021-01-04 02:18:03.686] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-01-04 02:21:52.420] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-01-04 02:22:14.596] [sharedprocess] [info] Installing extension: formulahendry.code-runner
+[2021-01-04 02:22:17.877] [sharedprocess] [info] Downloaded extension: formulahendry.code-runner undefined
+[2021-01-04 02:22:18.311] [sharedprocess] [info] Extracted extension to /home/luckytuvshee/.vscode-oss/extensions/.formulahendry.code-runner-0.11.1: formulahendry.code-runner
+[2021-01-04 02:22:18.311] [sharedprocess] [info] Renamed to /home/luckytuvshee/.vscode-oss/extensions/formulahendry.code-runner-0.11.1
+[2021-01-04 02:22:18.315] [sharedprocess] [info] Installation completed. formulahendry.code-runner
+[2021-01-04 02:22:18.321] [sharedprocess] [info] Extensions installed successfully: formulahendry.code-runner
+[2021-01-04 02:22:29.318] [sharedprocess] [info] Downloaded extension: ms-python.python undefined
+[2021-01-04 02:22:34.155] [sharedprocess] [info] Extracted extension to /home/luckytuvshee/.vscode-oss/extensions/.ms-python.python-2020.10.332292344: ms-python.python
+[2021-01-04 02:22:34.155] [sharedprocess] [info] Renamed to /home/luckytuvshee/.vscode-oss/extensions/ms-python.python-2020.10.332292344
+[2021-01-04 02:22:34.164] [sharedprocess] [info] Installation completed. ms-python.python
+[2021-01-04 02:22:34.189] [sharedprocess] [info] Extensions installed successfully: ms-python.python

@@ -1,0 +1,20 @@
+Looking for git in: git
+Using git 2.30.0 from git
+> git rev-parse --git-dir
+Open repository: /home/luckytuvshee/unixporn/bspwm_aesthetic_anime/Dotfiles
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/luckytuvshee/unixporn/bspwm_aesthetic_anime/Dotfiles/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :.config/polybar/scripts/themes/powermenu.rasi
+> git ls-files --stage -- /home/luckytuvshee/unixporn/bspwm_aesthetic_anime/Dotfiles/.config/polybar/scripts/themes/powermenu.rasi
+> git cat-file -s bb93ca1e244aac54c9a3b45f27dacad386a4735b
+> git check-ignore -v -z --stdin
+> git show --textconv :.config/polybar/scripts/lock.sh
+> git ls-files --stage -- /home/luckytuvshee/unixporn/bspwm_aesthetic_anime/Dotfiles/.config/polybar/scripts/lock.sh
+> git cat-file -s 9ab7d98026a82f6127f0b5c3a7abd23015354b0b
