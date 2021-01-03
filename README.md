@@ -33,7 +33,6 @@
 * xf86-video-intel (to use xorg-xbacklight)
 * alsa-utils (to use amixer to control volume because it'll not go further above 100% volume)
 * playerctl (for controlling audio)
-* ttf-font-awesome
 * awesome-terminal-fonts (to use fancy symbols in standard monospace font)
 * pinta
 * maim
