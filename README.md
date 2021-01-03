@@ -41,8 +41,8 @@
 * i3lock-color
 * ntfs-3g (to mount ntfs partition with os-prober)
 * rsync (a fast, versatile, remote (and local) file-copying tool)
-  rsync -ah --progress source destination
-  The -a will keep permissions,etc, and -h will be human readable
+  * rsync -ah --progress source destination
+  * The -a will keep permissions,etc, and -h will be human readable
 
 ## Useful notes
 * Get window class name of application using xprop package
