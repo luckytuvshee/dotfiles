@@ -39,6 +39,7 @@
 * maim
 * xdotool (to get current focused window)
 * i3lock-color
+* ntfs-3g (to mount ntfs partition with os-prober)
 
 ## Useful notes
 * Get window class name of application using xprop package
