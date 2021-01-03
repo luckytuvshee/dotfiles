@@ -55,3 +55,4 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8                                                         
 export LANGUAGE=en_U
 ```
+* zsh seems slow when my repo has untracked files, but it's fine after one push. 
