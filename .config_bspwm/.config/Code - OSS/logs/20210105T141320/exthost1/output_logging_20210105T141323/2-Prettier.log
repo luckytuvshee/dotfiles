@@ -1,0 +1,197 @@
+["INFO" - 2:13:23 PM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 2:13:23 PM] Extension Version: 5.8.0.
+["INFO" - 2:13:23 PM] Enabling prettier for languages: ansible, css, graphql, home-assistant, html, javascript, javascriptreact, json, json5, jsonc, less, markdown, mdx, mongo, postcss, scss, typescript, typescriptreact, vue, yaml
+["INFO" - 2:13:23 PM] Enabling prettier for file extensions: .JSON-tmLanguage, ._js, .avsc, .bones, .cjs, .component.html, .css, .es, .es6, .frag, .geojson, .gltf, .gql, .graphql, .graphqls, .gs, .har, .htm, .html, .html.hl, .ice, .inc, .jake, .js, .js.flow, .jsb, .jscad, .jsfl, .jsm, .json, .json5, .jsonc, .jss, .jsx, .less, .markdown, .mcmeta, .md, .mdown, .mdwn, .mdx, .mir, .mjml, .mjs, .mkd, .mkdn, .mkdown, .njs, .pac, .pcss, .postcss, .reek, .ronn, .rviz, .scss, .sjs, .ssjs, .st, .sublime-build, .sublime-commands, .sublime-completions, .sublime-keymap, .sublime-macro, .sublime-menu, .sublime-mousemap, .sublime-project, .sublime-settings, .sublime-syntax, .sublime-theme, .sublime-workspace, .sublime_metrics, .sublime_session, .syntax, .tfstate, .tfstate.backup, .topojson, .ts, .tsx, .vue, .webapp, .webmanifest, .workbook, .wxs, .wxss, .xht, .xhtml, .xsjs, .xsjslib, .yaml, .yaml-tmlanguage, .yaml.sed, .yml, .yml.mysql, .yy, .yyp
+["INFO" - 2:13:23 PM] Enabling prettier for range supported languages: graphql, javascript, javascriptreact, json, typescript, typescriptreact
+["INFO" - 2:18:41 PM] Formatting /home/luckytuvshee/programming/tutorials/jimp-example/src/App.js
+["INFO" - 2:18:41 PM] Using ignore file (if present) at /home/luckytuvshee/programming/tutorials/jimp-example/.prettierignore
+["INFO" - 2:18:41 PM] Using bundled version of prettier.
+["INFO" - 2:18:41 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:18:41 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:18:41 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/luckytuvshee/programming/tutorials/jimp-example/src/App.js",
+  "parser": "babel"
+}
+["INFO" - 2:18:41 PM] Formatting completed in 97.486997ms.
+["INFO" - 2:18:52 PM] Formatting /home/luckytuvshee/programming/tutorials/jimp-example/src/App.js
+["INFO" - 2:18:52 PM] Using ignore file (if present) at /home/luckytuvshee/programming/tutorials/jimp-example/.prettierignore
+["INFO" - 2:18:52 PM] Using bundled version of prettier.
+["INFO" - 2:18:52 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:18:52 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:18:52 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/luckytuvshee/programming/tutorials/jimp-example/src/App.js",
+  "parser": "babel"
+}
+["INFO" - 2:18:52 PM] Formatting completed in 37.545031ms.
+["INFO" - 2:19:10 PM] Formatting /home/luckytuvshee/programming/tutorials/jimp-example/src/App.css
+["INFO" - 2:19:10 PM] Using ignore file (if present) at /home/luckytuvshee/programming/tutorials/jimp-example/.prettierignore
+["INFO" - 2:19:10 PM] Using bundled version of prettier.
+["INFO" - 2:19:10 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "css"
+}
+["INFO" - 2:19:10 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:19:10 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/luckytuvshee/programming/tutorials/jimp-example/src/App.css",
+  "parser": "css"
+}
+["INFO" - 2:19:10 PM] Formatting completed in 38.492821ms.
+["INFO" - 2:55:17 PM] Formatting /home/luckytuvshee/programming/tutorials/jimp-example/src/App.js
+["INFO" - 2:55:17 PM] Using ignore file (if present) at /home/luckytuvshee/programming/tutorials/jimp-example/.prettierignore
+["INFO" - 2:55:17 PM] Using bundled version of prettier.
+["INFO" - 2:55:17 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:55:17 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:55:17 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/luckytuvshee/programming/tutorials/jimp-example/src/App.js",
+  "parser": "babel"
+}
+["INFO" - 2:55:17 PM] Formatting completed in 87.616255ms.
+["INFO" - 2:55:31 PM] Formatting /home/luckytuvshee/programming/tutorials/jimp-example/src/App.js
+["INFO" - 2:55:31 PM] Using ignore file (if present) at /home/luckytuvshee/programming/tutorials/jimp-example/.prettierignore
+["INFO" - 2:55:31 PM] Using bundled version of prettier.
+["INFO" - 2:55:31 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:55:31 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:55:31 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/luckytuvshee/programming/tutorials/jimp-example/src/App.js",
+  "parser": "babel"
+}
+["INFO" - 2:55:31 PM] Formatting completed in 52.671441ms.
+["INFO" - 2:55:55 PM] Formatting /home/luckytuvshee/programming/tutorials/jimp-example/src/App.js
+["INFO" - 2:55:55 PM] Using ignore file (if present) at /home/luckytuvshee/programming/tutorials/jimp-example/.prettierignore
+["INFO" - 2:55:55 PM] Using bundled version of prettier.
+["INFO" - 2:55:55 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:55:55 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:55:55 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/luckytuvshee/programming/tutorials/jimp-example/src/App.js",
+  "parser": "babel"
+}
+["INFO" - 2:55:55 PM] Formatting completed in 25.804908ms.

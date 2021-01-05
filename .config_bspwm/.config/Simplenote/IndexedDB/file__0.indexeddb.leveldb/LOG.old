@@ -1,0 +1,43 @@
+2021/01/05-15:03:28.420 4530 Reusing MANIFEST /home/luckytuvshee/.config/Simplenote/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2021/01/05-15:03:28.420 4530 Recovering log #227
+2021/01/05-15:03:28.420 4530 Reusing old log /home/luckytuvshee/.config/Simplenote/IndexedDB/file__0.indexeddb.leveldb/000227.log 
+2021/01/05-15:03:29.788 4562 Level-0 table #231: started
+2021/01/05-15:03:29.854 4562 Level-0 table #231: 2581025 bytes OK
+2021/01/05-15:03:29.856 4562 Delete type=0 #227
+2021/01/05-15:03:29.858 4562 Compacting 4@0 + 2@1 files
+2021/01/05-15:03:29.935 4562 Generated table #232@0: 155 keys, 2583926 bytes
+2021/01/05-15:03:29.937 4562 Generated table #233@0: 13 keys, 3921 bytes
+2021/01/05-15:03:29.937 4562 Compacted 4@0 + 2@1 files => 2587847 bytes
+2021/01/05-15:03:29.938 4562 compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/01/05-15:03:29.938 4562 Delete type=2 #231
+2021/01/05-15:03:29.938 4562 Delete type=2 #222
+2021/01/05-15:03:29.938 4562 Delete type=2 #228
+2021/01/05-15:03:29.938 4562 Delete type=2 #224
+2021/01/05-15:03:29.938 4562 Delete type=2 #226
+2021/01/05-15:03:29.938 4562 Delete type=2 #221
+2021/01/05-15:03:43.589 4562 Level-0 table #235: started
+2021/01/05-15:03:43.633 4562 Level-0 table #235: 2581397 bytes OK
+2021/01/05-15:03:43.635 4562 Delete type=0 #230
+2021/01/05-15:03:45.798 4562 Level-0 table #237: started
+2021/01/05-15:03:45.843 4562 Level-0 table #237: 2581571 bytes OK
+2021/01/05-15:03:45.844 4562 Delete type=0 #234
+2021/01/05-15:04:02.968 4562 Level-0 table #239: started
+2021/01/05-15:04:03.023 4562 Level-0 table #239: 2581583 bytes OK
+2021/01/05-15:04:03.025 4562 Delete type=0 #236
+2021/01/05-15:04:04.809 4562 Level-0 table #241: started
+2021/01/05-15:04:04.853 4562 Level-0 table #241: 2581643 bytes OK
+2021/01/05-15:04:04.855 4562 Delete type=0 #238
+2021/01/05-15:04:04.856 4562 Compacting 4@0 + 2@1 files
+2021/01/05-15:04:04.946 4562 Generated table #242@0: 155 keys, 2584664 bytes
+2021/01/05-15:04:04.948 4562 Generated table #243@0: 13 keys, 3921 bytes
+2021/01/05-15:04:04.948 4562 Compacted 4@0 + 2@1 files => 2588585 bytes
+2021/01/05-15:04:04.949 4562 compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/01/05-15:04:04.950 4562 Delete type=2 #233
+2021/01/05-15:04:04.950 4562 Delete type=2 #235
+2021/01/05-15:04:04.950 4562 Delete type=2 #241
+2021/01/05-15:04:04.950 4562 Delete type=2 #239
+2021/01/05-15:04:04.950 4562 Delete type=2 #237
+2021/01/05-15:04:04.950 4562 Delete type=2 #232
+2021/01/05-15:04:35.250 4562 Level-0 table #245: started
+2021/01/05-15:04:35.300 4562 Level-0 table #245: 2581770 bytes OK
+2021/01/05-15:04:35.302 4562 Delete type=0 #240

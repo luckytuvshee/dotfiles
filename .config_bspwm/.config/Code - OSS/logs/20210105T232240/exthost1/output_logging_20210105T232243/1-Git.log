@@ -1,0 +1,34 @@
+Looking for git in: git
+Using git 2.30.0 from git
+> git rev-parse --git-dir
+Open repository: /home/luckytuvshee/dotfiles
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :.config/polybar/config
+> git ls-files --stage -- /home/luckytuvshee/dotfiles/.config/polybar/config
+> git cat-file -s f11dbbd3885ce5b263e41da01f6dc7045579e991
+> git check-ignore -v -z --stdin
+> git show --textconv :.config/polybar/config
+> git ls-files --stage -- /home/luckytuvshee/dotfiles/.config/polybar/config
+> git cat-file -s f11dbbd3885ce5b263e41da01f6dc7045579e991
+> git show --textconv :.config/polybar/config
+> git ls-files --stage -- /home/luckytuvshee/dotfiles/.config/polybar/config
+> git cat-file -s f11dbbd3885ce5b263e41da01f6dc7045579e991
+> git show --textconv :.config/polybar/config
+> git ls-files --stage -- /home/luckytuvshee/dotfiles/.config/polybar/config
+> git cat-file -s f11dbbd3885ce5b263e41da01f6dc7045579e991
+> git show --textconv :.config/polybar/config
+> git ls-files --stage -- /home/luckytuvshee/dotfiles/.config/polybar/config
+> git cat-file -s f11dbbd3885ce5b263e41da01f6dc7045579e991
+> git show --textconv :.config/polybar/config
+> git ls-files --stage -- /home/luckytuvshee/dotfiles/.config/polybar/config
+> git cat-file -s f11dbbd3885ce5b263e41da01f6dc7045579e991
+> git show --textconv :.config/polybar/config
+> git ls-files --stage -- /home/luckytuvshee/dotfiles/.config/polybar/config
+> git cat-file -s f11dbbd3885ce5b263e41da01f6dc7045579e991

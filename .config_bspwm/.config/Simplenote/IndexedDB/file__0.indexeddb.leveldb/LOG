@@ -1,0 +1,23 @@
+2021/01/05-23:21:17.356 8d84 Reusing MANIFEST /home/luckytuvshee/.config/Simplenote/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2021/01/05-23:21:17.356 8d84 Recovering log #244
+2021/01/05-23:21:17.356 8d84 Reusing old log /home/luckytuvshee/.config/Simplenote/IndexedDB/file__0.indexeddb.leveldb/000244.log 
+2021/01/05-23:21:18.775 8dba Level-0 table #248: started
+2021/01/05-23:21:18.847 8dba Level-0 table #248: 2581664 bytes OK
+2021/01/05-23:21:18.848 8dba Delete type=0 #244
+2021/01/05-23:21:20.415 8dba Level-0 table #250: started
+2021/01/05-23:21:20.465 8dba Level-0 table #250: 2581875 bytes OK
+2021/01/05-23:21:20.466 8dba Delete type=0 #247
+2021/01/05-23:21:35.187 8dba Level-0 table #252: started
+2021/01/05-23:21:35.245 8dba Level-0 table #252: 2582273 bytes OK
+2021/01/05-23:21:35.246 8dba Delete type=0 #249
+2021/01/05-23:21:35.248 8dba Compacting 4@0 + 2@1 files
+2021/01/05-23:21:35.327 8dba Generated table #253@0: 155 keys, 2585234 bytes
+2021/01/05-23:21:35.328 8dba Generated table #254@0: 13 keys, 3921 bytes
+2021/01/05-23:21:35.328 8dba Compacted 4@0 + 2@1 files => 2589155 bytes
+2021/01/05-23:21:35.329 8dba compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/01/05-23:21:35.329 8dba Delete type=2 #245
+2021/01/05-23:21:35.329 8dba Delete type=2 #242
+2021/01/05-23:21:35.329 8dba Delete type=2 #243
+2021/01/05-23:21:35.329 8dba Delete type=2 #250
+2021/01/05-23:21:35.329 8dba Delete type=2 #248
+2021/01/05-23:21:35.329 8dba Delete type=2 #252
