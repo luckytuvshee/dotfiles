@@ -44,6 +44,13 @@
   * The -a will keep permissions,etc, and -h will be human readable
 
 ## Useful notes
+* set default file manager for browsers 
+  - `inode/directory=ranger.desktop;thunar.desktop`
+  > ~/.local/share/applications
+  * `/usr/share/applications/mimeinfo.cache`
+  > An inode is a data structure that stores all the information about a file except its name and its actual data.
+  > Inodes stores metadata about the file it refers to. This metadata contains all the information about the said file.
+  - Size, Permission, Owner/Group, Location of the hard drive, Date/time, Any other information needed.
 * Get window class name of application using xprop package
 * Disable PC speaker (BEEP) - Blacklisting the pcspkr module will prevent udev from loading it at boot:
 > echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
