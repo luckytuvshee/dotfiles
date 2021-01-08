@@ -1,5 +1,9 @@
 #!python
 
+# dependencies
+# pacman -S python-xlib
+# pacman -S python-pillow
+
 import sys
 from Xlib import X, display
 import PIL.Image # python-imaging
