@@ -1,2 +1,0 @@
-#!/bin/bash
-tdrop -am -w 1000 -h 650 -x 23% -y 17% "$@"

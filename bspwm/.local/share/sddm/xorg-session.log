@@ -1,0 +1,21 @@
+warning: output eDP-1 not found; ignoring
+monitor: Invalid descriptor found in 'eDP-1'.
+config: click_to_focus: Invalid value: 'false'.
+config: Unknown setting: 'focus_by_distance'.
+config: Unknown setting: 'paddingless_monocle'.
+config: Unknown setting: 'history_aware_focus'.
+/home/luckytuvshee/.config/bspwm/autostart: line 3: /home/luckytuvshee/.config/conky/start-conky.sh: No such file or directory
+/home/luckytuvshee/.config/bspwm/autostart: line 9: xautolock: command not found
+/home/luckytuvshee/.config/bspwm/autostart: line 4: brave: command not found
+/home/luckytuvshee/.config/bspwm/autostart: line 6: mpd_start: command not found
+/home/luckytuvshee/.config/bspwm/bspwmrc: line 78: bspswallow: command not found
+/home/luckytuvshee/.config/bspwm/autostart: line 7: bspswallow: command not found
+polybar|notice:  Parsing config file: /home/luckytuvshee/.config/polybar/config.ini
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_00_1b.0.analog-stereo
+polybar|notice:  Loaded font "Cantarell:pixelsize=9" (name=Cantarell, offset=2, file=/usr/share/fonts/cantarell/Cantarell-Regular.otf)
+polybar|notice:  Loaded font "Wuncon Siji:pixelsize=9" (name=Wuncon Siji, offset=2, file=/home/luckytuvshee/.local/share/fonts/Siji.otb)
+polybar|notice:  Loaded font "FontAwesome:pixelsize=9" (name=FontAwesome, offset=2, file=/usr/share/fonts/awesome-terminal-fonts/fontawesome-regular.ttf)
+WARNING: BadWindow (invalid Window parameter)
+Warning: 'sandbox' is not in the list of known options, but still passed to Electron/Chromium.
+polybar|notice:  Termination signal received, shutting down...
+urxvt: X connection to ':0' broken, unable to recover, exiting.

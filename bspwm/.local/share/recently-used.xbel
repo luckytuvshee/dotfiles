@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/luckytuvshee/Downloads/Nordic-darker.tar.xz" added="2021-01-02T17:43:11.896831Z" modified="2021-01-02T17:43:11.896862Z" visited="2021-01-02T17:43:11.896834Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-02T17:43:11.896850Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/Nordic-darker.tar(1).xz" added="2021-01-02T17:44:54.325416Z" modified="2021-01-02T17:44:54.325433Z" visited="2021-01-02T17:44:54.325418Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-02T17:44:54.325424Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/.config" added="2021-01-02T18:55:02.380712Z" modified="2021-01-08T04:04:44.952324Z" visited="2021-01-02T18:55:02.380714Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2021-01-08T04:04:44.952317Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/wallpaper.png" added="2021-01-02T18:59:00.222551Z" modified="2021-01-02T18:59:00.561645Z" visited="2021-01-02T18:59:00.222552Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-02T18:59:00.561642Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_luckytuvshee0/%D0%94%D0%B0%D0%B0%D0%BB%D0%B3%D0%B0%D0%B2%D0%B0%D1%80.pdf" added="2021-01-03T07:41:26.578369Z" modified="2021-01-03T07:41:26.578382Z" visited="2021-01-03T07:41:26.578371Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-03T07:41:26.578376Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/wave_wallpaper.jpg" added="2021-01-03T08:42:02.150170Z" modified="2021-01-03T08:42:02.517513Z" visited="2021-01-03T08:42:02.150171Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-03T08:42:02.517509Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/unixporn/bspwm_nord" added="2021-01-03T09:28:20.335028Z" modified="2021-01-03T11:01:36.119813Z" visited="2021-01-03T09:28:20.335030Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2021-01-03T11:01:36.119806Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/Vimix-1080p.tar.xz" added="2021-01-03T10:15:02.381417Z" modified="2021-01-03T10:15:02.381427Z" visited="2021-01-03T10:15:02.381419Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-03T10:15:02.381421Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/02-Flat-Remix-Blue-Dark_20201217.tar.xz" added="2021-01-03T10:25:00.402570Z" modified="2021-01-03T10:25:00.402594Z" visited="2021-01-03T10:25:00.402573Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-03T10:25:00.402582Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/universe.jpg" added="2021-01-03T14:59:53.650160Z" modified="2021-01-03T14:59:54.006033Z" visited="2021-01-03T14:59:53.650167Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-03T14:59:54.006027Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/dotfiles" added="2021-01-03T15:28:51.430219Z" modified="2021-01-03T15:28:51.430234Z" visited="2021-01-03T15:28:51.430221Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2021-01-03T15:28:51.430225Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/wallhaven-wq83q6.jpg" added="2021-01-05T03:50:43.705823Z" modified="2021-01-10T13:07:20.111356Z" visited="2021-01-05T03:50:43.705827Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-10T13:07:20.111351Z" count="15"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/135604961_226014315692012_4192756321116408467_n.jpg" added="2021-01-05T05:31:53.771332Z" modified="2021-01-05T05:31:54.112389Z" visited="2021-01-05T05:31:53.771333Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-05T05:31:54.112381Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/snappa_beta_headline.png" added="2021-01-05T06:43:01.268597Z" modified="2021-01-05T06:43:01.635329Z" visited="2021-01-05T06:43:01.268598Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-05T06:43:01.635324Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/snappa.png" added="2021-01-05T06:43:31.990887Z" modified="2021-01-05T06:43:32.332410Z" visited="2021-01-05T06:43:31.990892Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-05T06:43:32.332406Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/snappa_features.png" added="2021-01-05T06:45:39.558191Z" modified="2021-01-05T06:45:39.900923Z" visited="2021-01-05T06:45:39.558196Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-05T06:45:39.900916Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/uka_desk.jpg" added="2021-01-05T13:19:21.584871Z" modified="2021-01-05T13:19:21.970563Z" visited="2021-01-05T13:19:21.584874Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-05T13:19:21.970558Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/dotfiles/.config/polybar/config" added="2021-01-05T15:23:09.473839Z" modified="2021-01-05T15:23:09.473850Z" visited="2021-01-05T15:23:09.473840Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2021-01-05T15:23:09.473844Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Programming/serverless/photobook/photobook_client" added="2021-01-05T17:34:10.187474Z" modified="2021-01-14T17:01:32.534766Z" visited="2021-01-05T17:34:10.187475Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2021-01-14T17:01:32.534763Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Pictures/2021-01-06_11-50.png" added="2021-01-06T05:12:49.614142Z" modified="2021-01-06T05:12:49.614175Z" visited="2021-01-06T05:12:49.614145Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-06T05:12:49.614158Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/134964779_221410249557581_3689738011023607597_o.jpg" added="2021-01-06T09:35:46.497165Z" modified="2021-01-06T09:35:46.862064Z" visited="2021-01-06T09:35:46.497167Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-06T09:35:46.862058Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/132707844_2877107679176242_3254478164519689236_o.jpg" added="2021-01-06T09:46:32.657971Z" modified="2021-01-06T09:46:33.038361Z" visited="2021-01-06T09:46:32.657972Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-06T09:46:33.038340Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/134942159_3043331095950907_1565549051209922240_n.jpg" added="2021-01-06T10:20:38.602543Z" modified="2021-01-06T10:20:39.271471Z" visited="2021-01-06T10:20:38.602549Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-06T10:20:39.271462Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/135569996_3041194146164602_2880266533220184969_n.jpg" added="2021-01-06T10:26:31.345062Z" modified="2021-01-06T10:26:31.681070Z" visited="2021-01-06T10:26:31.345066Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-06T10:26:31.681065Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_luckytuvshee0/1000+%20Little%20Things%20Happy%20Successful%20People%20Do%20Differently.pdf" added="2021-01-06T14:41:25.837480Z" modified="2021-01-06T14:41:25.837494Z" visited="2021-01-06T14:41:25.837482Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-06T14:41:25.837488Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/1000+%20Little%20Things%20Happy%20Successful%20People%20Do%20Differently.pdf" added="2021-01-06T14:54:08.744169Z" modified="2021-01-06T14:54:09.107049Z" visited="2021-01-06T14:54:08.744174Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-06T14:54:09.107045Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/15732123_1671325232892863_7345611368590708352_o.jpg" added="2021-01-06T14:58:05.104247Z" modified="2021-01-06T14:58:05.459807Z" visited="2021-01-06T14:58:05.104249Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-06T14:58:05.459802Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/132453517_2877311775822499_7070504733906364217_o.jpg" added="2021-01-07T05:08:39.605759Z" modified="2021-01-07T05:08:39.964931Z" visited="2021-01-07T05:08:39.605764Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-07T05:08:39.964926Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/136379342_217496403247277_6368066774346193586_o.jpg" added="2021-01-07T05:09:49.553971Z" modified="2021-01-08T09:19:03.786686Z" visited="2021-01-07T05:09:49.553975Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-08T09:19:03.786679Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Aexcit%20&amp;%20INFINITY%20-%20Sweet%20Dreams.mp3" added="2021-01-07T07:53:01.698015Z" modified="2021-01-07T07:53:01.698024Z" visited="2021-01-07T07:53:01.698016Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-07T07:53:01.698020Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/135479434_3727751237284819_297851680133144352_o.jpg" added="2021-01-07T08:19:35.761729Z" modified="2021-01-07T08:19:36.181687Z" visited="2021-01-07T08:19:35.761731Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-07T08:19:36.181681Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/136707194_1738353826343220_7683891602351127685_n.jpg" added="2021-01-07T08:47:33.182574Z" modified="2021-01-07T08:47:33.574416Z" visited="2021-01-07T08:47:33.182578Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-07T08:47:33.574412Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/no_bra_movement_1970s.jpg" added="2021-01-07T10:59:33.277401Z" modified="2021-01-07T10:59:33.703484Z" visited="2021-01-07T10:59:33.277405Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-07T10:59:33.703479Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/26198376_968248913324316_910867585496503870_o.jpg" added="2021-01-07T11:00:21.425557Z" modified="2021-01-07T11:00:21.801464Z" visited="2021-01-07T11:00:21.425562Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-07T11:00:21.801449Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/135856133_10217426247199669_1300545596288745520_n.jpg" added="2021-01-07T11:00:44.352257Z" modified="2021-01-07T11:00:44.689283Z" visited="2021-01-07T11:00:44.352264Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-07T11:00:44.689279Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/snow.png" added="2021-01-07T12:03:54.834940Z" modified="2021-01-07T12:03:55.170483Z" visited="2021-01-07T12:03:54.834952Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-07T12:03:55.170473Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/candy.png" added="2021-01-07T12:04:04.330435Z" modified="2021-01-07T12:04:04.680460Z" visited="2021-01-07T12:04:04.330439Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-07T12:04:04.680455Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/tree.png" added="2021-01-07T12:04:16.123916Z" modified="2021-01-07T12:04:16.498359Z" visited="2021-01-07T12:04:16.123921Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-07T12:04:16.498354Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/128941640_3505632286191716_2633238691450240799_n.png" added="2021-01-07T12:59:19.667885Z" modified="2021-01-08T09:12:34.642825Z" visited="2021-01-07T12:59:19.667890Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-08T09:12:34.642820Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/136509716_4157609160930183_9144681127319916201_n.jpg" added="2021-01-07T13:25:11.361364Z" modified="2021-01-07T13:25:11.714164Z" visited="2021-01-07T13:25:11.361366Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-07T13:25:11.714157Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/.config/polybar" added="2021-01-08T04:02:38.118132Z" modified="2021-01-08T04:02:38.118137Z" visited="2021-01-08T04:02:38.118133Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2021-01-08T04:02:38.118134Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/136942390_857213641777932_1981383393949387730_n.jpg" added="2021-01-08T04:20:09.284506Z" modified="2021-01-08T04:20:09.648198Z" visited="2021-01-08T04:20:09.284510Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-08T04:20:09.648189Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/132428258_2877315655822111_2252115224835156739_n.jpg" added="2021-01-08T16:32:54.635749Z" modified="2021-01-08T16:32:55.001536Z" visited="2021-01-08T16:32:54.635758Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-08T16:32:55.001531Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/132427687_2877109185842758_7836859768324577482_n.jpg" added="2021-01-08T16:43:36.305710Z" modified="2021-01-08T16:43:36.664361Z" visited="2021-01-08T16:43:36.305711Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-08T16:43:36.664356Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/137303847_4163403263684106_8360865175064833747_n.jpg" added="2021-01-09T10:51:42.981760Z" modified="2021-01-09T10:51:43.368347Z" visited="2021-01-09T10:51:42.981766Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-09T10:51:43.368342Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/137364263_3046120755671941_3315490279823080399_n.jpg" added="2021-01-09T12:47:25.456919Z" modified="2021-01-09T12:47:25.853437Z" visited="2021-01-09T12:47:25.456921Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-09T12:47:25.853433Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/137326355_3022310194714937_11672060827843325_o.jpg" added="2021-01-10T10:56:11.748911Z" modified="2021-01-10T10:56:12.127438Z" visited="2021-01-10T10:56:11.748912Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-10T10:56:12.127432Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/rota_ora_ritual.jpg" added="2021-01-10T11:08:03.187776Z" modified="2021-01-10T11:08:03.535274Z" visited="2021-01-10T11:08:03.187781Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-10T11:08:03.535269Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/rita_ora_ritual.jpg" added="2021-01-10T11:09:24.928657Z" modified="2021-01-14T18:42:05.158586Z" visited="2021-01-10T11:09:24.928659Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-14T18:42:05.158569Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/136124348_5336850156355883_7185433239190221329_o.jpg" added="2021-01-10T12:22:54.232234Z" modified="2021-01-10T12:22:54.617570Z" visited="2021-01-10T12:22:54.232235Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-10T12:22:54.617564Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/135872254_448654269851168_8051865518264744725_o.jpg" added="2021-01-10T12:24:04.802795Z" modified="2021-01-10T12:24:05.137888Z" visited="2021-01-10T12:24:04.802797Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-10T12:24:05.137883Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_luckytuvshee0/Ripple-1s-200px.gif" added="2021-01-10T12:37:12.873326Z" modified="2021-01-10T12:37:12.873337Z" visited="2021-01-10T12:37:12.873328Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/gif"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-10T12:37:12.873332Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/78967200_2608228275892701_3030366196336689152_n.jpg" added="2021-01-10T13:20:38.779318Z" modified="2021-01-10T13:20:39.128066Z" visited="2021-01-10T13:20:38.779321Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-10T13:20:39.128059Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/Grokking%20Algorithms.pdf" added="2021-01-10T14:23:52.706709Z" modified="2021-01-10T14:23:53.128077Z" visited="2021-01-10T14:23:52.706710Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-10T14:23:53.128070Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/80739194_766043467206543_2396748289841037312_n.jpg" added="2021-01-10T15:53:55.793747Z" modified="2021-01-10T15:53:56.150860Z" visited="2021-01-10T15:53:55.793752Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-10T15:53:56.150856Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_luckytuvshee0/136972287_195936388917950_9117202515250266327_n.jpg" added="2021-01-10T16:10:11.459000Z" modified="2021-01-10T16:10:11.459011Z" visited="2021-01-10T16:10:11.459001Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-10T16:10:11.459005Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_luckytuvshee0/tuvshinsanaas-resume.pdf" added="2021-01-11T05:25:58.739930Z" modified="2021-01-11T05:25:58.739948Z" visited="2021-01-11T05:25:58.739933Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-11T05:25:58.739941Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/137061986_455628525807062_6475128821443544190_o.jpg" added="2021-01-11T05:41:23.999880Z" modified="2021-01-11T05:41:24.357816Z" visited="2021-01-11T05:41:23.999886Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-11T05:41:24.357811Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/Exa" added="2021-01-11T11:08:51.064293Z" modified="2021-01-11T11:08:51.064303Z" visited="2021-01-11T11:08:51.064295Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-11T11:08:51.064298Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/136484074_10160589411928812_6375741399277469586_n.jpg" added="2021-01-11T11:38:19.462371Z" modified="2021-01-11T11:38:19.836666Z" visited="2021-01-11T11:38:19.462377Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-11T11:38:19.836661Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/138376237_10160595874958812_5395424928100404014_n.jpg" added="2021-01-11T11:38:48.654209Z" modified="2021-01-11T11:38:49.008262Z" visited="2021-01-11T11:38:48.654211Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-11T11:38:49.008257Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/83896872_3158165070874602_4654804797134733312_o.jpg" added="2021-01-11T14:49:27.900184Z" modified="2021-01-11T14:49:28.255305Z" visited="2021-01-11T14:49:27.900188Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-11T14:49:28.255300Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/135829745_470590744328560_9010296718541106682_o.jpg" added="2021-01-11T14:51:45.301617Z" modified="2021-01-11T14:51:45.646307Z" visited="2021-01-11T14:51:45.301622Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-11T14:51:45.646301Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/wallhaven-kwm2r6.jpg" added="2021-01-11T14:55:49.555205Z" modified="2021-01-14T18:42:39.332711Z" visited="2021-01-11T14:55:49.555209Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-14T18:42:39.332707Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/wallhaven-xl635v.jpg" added="2021-01-11T14:58:54.629716Z" modified="2021-01-11T14:58:57.466517Z" visited="2021-01-11T14:58:54.629720Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-11T14:58:57.466509Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/wallhaven-md6578.jpg" added="2021-01-11T14:59:23.790268Z" modified="2021-01-11T14:59:26.913176Z" visited="2021-01-11T14:59:23.790271Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-11T14:59:26.913171Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/138059331_1802356626631283_649837730941674905_n.png" added="2021-01-11T16:01:21.826016Z" modified="2021-01-11T16:01:22.199139Z" visited="2021-01-11T16:01:21.826021Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-11T16:01:22.199134Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/20201110_130023_078.jpg" added="2021-01-11T18:05:00.144330Z" modified="2021-01-11T18:08:28.593087Z" visited="2021-01-11T18:05:00.144332Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-11T18:08:28.593083Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/luckytuvshee_logo.jpeg" added="2021-01-11T18:27:31.534295Z" modified="2021-01-11T18:31:13.673912Z" visited="2021-01-11T18:27:31.534299Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-11T18:31:13.673901Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/favicon_package_v0.16.zip" added="2021-01-11T18:28:47.443046Z" modified="2021-01-11T18:28:47.443055Z" visited="2021-01-11T18:28:47.443047Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-11T18:28:47.443051Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/favicon_io.zip" added="2021-01-11T18:31:17.858565Z" modified="2021-01-11T18:31:17.858572Z" visited="2021-01-11T18:31:17.858566Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-11T18:31:17.858568Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/FiraCode-VF.woff" added="2021-01-11T18:40:18.313292Z" modified="2021-01-11T18:40:18.313300Z" visited="2021-01-11T18:40:18.313294Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/woff"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-11T18:40:18.313296Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/FiraCode-Regular.woff" added="2021-01-11T18:40:23.179576Z" modified="2021-01-11T18:40:23.179588Z" visited="2021-01-11T18:40:23.179578Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/woff"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-11T18:40:23.179582Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/FiraCode-Bold.woff" added="2021-01-11T18:40:28.203580Z" modified="2021-01-11T18:40:28.203592Z" visited="2021-01-11T18:40:28.203582Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/woff"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-11T18:40:28.203588Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/OnlineWebFonts_COM_de0ce97d2c125e4244f475031d598442.zip" added="2021-01-11T18:53:28.841427Z" modified="2021-01-11T18:53:28.841441Z" visited="2021-01-11T18:53:28.841428Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-11T18:53:28.841434Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/YuseiMagic-Regular.ttf" added="2021-01-11T18:59:36.580684Z" modified="2021-01-11T18:59:36.580694Z" visited="2021-01-11T18:59:36.580685Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-11T18:59:36.580688Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/VictorMono-Thin.woff2" added="2021-01-12T04:24:23.817661Z" modified="2021-01-12T04:24:23.817668Z" visited="2021-01-12T04:24:23.817662Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/woff2"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-12T04:24:23.817664Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/VictorMono-Regular.woff2" added="2021-01-12T04:24:40.669626Z" modified="2021-01-12T04:24:40.669641Z" visited="2021-01-12T04:24:40.669628Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/woff2"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-12T04:24:40.669633Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/VictorMono-Medium.woff2" added="2021-01-12T04:44:44.537311Z" modified="2021-01-12T04:44:44.537320Z" visited="2021-01-12T04:44:44.537312Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/woff2"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-12T04:44:44.537315Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/137253019_4189600754386604_252295846629316789_n.jpg" added="2021-01-12T06:23:51.118961Z" modified="2021-01-12T06:23:51.477299Z" visited="2021-01-12T06:23:51.118962Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-12T06:23:51.477294Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/137034519_225119772519962_5589495054983901246_o.jpg" added="2021-01-12T06:26:33.951934Z" modified="2021-01-12T06:26:34.326335Z" visited="2021-01-12T06:26:33.951939Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-12T06:26:34.326330Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_luckytuvshee0/ubuntu-18-04-key.pem" added="2021-01-12T08:02:05.247638Z" modified="2021-01-12T08:02:05.247656Z" visited="2021-01-12T08:02:05.247639Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-x509-ca-cert"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-12T08:02:05.247644Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/138614933_3352892514816040_4879927877709937771_o.jpg" added="2021-01-12T11:23:32.477814Z" modified="2021-01-12T11:23:32.841250Z" visited="2021-01-12T11:23:32.477816Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-12T11:23:32.841246Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/WiFi_21.40.5_PROSet64_Win7.exe" added="2021-01-13T04:26:24.890118Z" modified="2021-01-13T04:26:24.890144Z" visited="2021-01-13T04:26:24.890122Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-ms-dos-executable"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-13T04:26:24.890129Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/136374289_4193041194042560_3274502462593560_o.jpg" added="2021-01-13T04:40:29.540125Z" modified="2021-01-13T04:40:29.867274Z" visited="2021-01-13T04:40:29.540129Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-13T04:40:29.867268Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Programming/tutorial/laravel-docker-boilerblate" added="2021-01-13T08:16:07.467048Z" modified="2021-01-14T05:38:46.096006Z" visited="2021-01-13T08:16:07.467049Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2021-01-14T05:38:46.096004Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/earring_front.jpg" added="2021-01-14T06:40:08.621952Z" modified="2021-01-14T06:50:42.515847Z" visited="2021-01-14T06:40:08.621962Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-14T06:50:42.515841Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/earring_1.jpg" added="2021-01-14T06:40:19.688133Z" modified="2021-01-14T06:50:16.445997Z" visited="2021-01-14T06:40:19.688135Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-14T06:50:16.445994Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/earrning2.jpg" added="2021-01-14T06:40:29.685368Z" modified="2021-01-14T06:50:16.445966Z" visited="2021-01-14T06:40:29.685370Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-14T06:50:16.445961Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/138630057_221710926106036_6266972647976738956_o.jpg" added="2021-01-14T06:55:41.525727Z" modified="2021-01-14T06:55:41.906040Z" visited="2021-01-14T06:55:41.525730Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-14T06:55:41.906034Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Programming/tutorial/microservice_docker_example" added="2021-01-14T11:01:17.451873Z" modified="2021-01-14T11:01:17.451880Z" visited="2021-01-14T11:01:17.451874Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2021-01-14T11:01:17.451877Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Programming/docker/laravel-docker-compose" added="2021-01-14T12:46:56.053914Z" modified="2021-01-15T07:34:15.908279Z" visited="2021-01-14T12:46:56.053917Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2021-01-15T07:34:15.908272Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Programming/docker/react-nodejs-docker-compose" added="2021-01-14T12:51:27.784475Z" modified="2021-01-14T12:51:27.784480Z" visited="2021-01-14T12:51:27.784476Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2021-01-14T12:51:27.784478Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Programming/docker/react-docker-compose" added="2021-01-14T13:49:19.275452Z" modified="2021-01-14T16:40:18.181792Z" visited="2021-01-14T13:49:19.275453Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2021-01-14T16:40:18.181784Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/138339678_1091735831293460_6321044915376555955_o.jpg" added="2021-01-14T13:56:17.300072Z" modified="2021-01-14T13:56:17.667646Z" visited="2021-01-14T13:56:17.300073Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-14T13:56:17.667641Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/139058693_4177570162267416_5831183817436776841_o.jpg" added="2021-01-14T14:01:07.481463Z" modified="2021-01-14T14:01:07.855182Z" visited="2021-01-14T14:01:07.481465Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-14T14:01:07.855169Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Programming/serverless/photobook/photobook-api" added="2021-01-14T16:54:23.759782Z" modified="2021-01-14T17:15:48.698997Z" visited="2021-01-14T16:54:23.759783Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2021-01-14T17:15:48.698993Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Programming/serverless/photobook/photobook-resource" added="2021-01-14T18:06:21.602606Z" modified="2021-01-14T18:06:21.602611Z" visited="2021-01-14T18:06:21.602606Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2021-01-14T18:06:21.602608Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/mongolia.mp4" added="2021-01-15T05:10:20.110031Z" modified="2021-01-15T05:18:14.034062Z" visited="2021-01-15T05:10:20.110032Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-15T05:18:14.034056Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/138327125_5357368207637411_2881736222731607599_o.jpg" added="2021-01-15T06:07:51.443581Z" modified="2021-01-15T06:07:51.818297Z" visited="2021-01-15T06:07:51.443586Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-15T06:07:51.818293Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/139502489_4179740862050346_5100449553959505785_n.jpg" added="2021-01-15T06:21:09.966082Z" modified="2021-01-15T06:21:10.346733Z" visited="2021-01-15T06:21:09.966084Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-15T06:21:10.346727Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/137051815_251014866600437_1142967648073232791_n.jpg" added="2021-01-15T10:13:44.008894Z" modified="2021-01-15T10:13:44.380927Z" visited="2021-01-15T10:13:44.008898Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-15T10:13:44.380920Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/139341845_3050827261867957_1088975849200759398_n.jpg" added="2021-01-15T10:18:13.446039Z" modified="2021-01-15T10:18:13.805272Z" visited="2021-01-15T10:18:13.446046Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-15T10:18:13.805268Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/136957574_235422931553142_356095900714283068_o.jpg" added="2021-01-15T11:07:49.471354Z" modified="2021-01-15T11:07:49.858423Z" visited="2021-01-15T11:07:49.471359Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-15T11:07:49.858418Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/137310740_4200138879999458_8053871105397364526_n.png" added="2021-01-15T16:28:00.680515Z" modified="2021-01-15T16:28:01.053909Z" visited="2021-01-15T16:28:00.680520Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-15T16:28:01.053905Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/139587995_2307059082762869_6896172710176703326_o.jpg" added="2021-01-17T06:15:45.079549Z" modified="2021-01-17T06:15:45.510039Z" visited="2021-01-17T06:15:45.079555Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-17T06:15:45.510034Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/brad-pitt-jennifer-aniston.jpg" added="2021-01-17T07:06:12.770475Z" modified="2021-01-17T07:06:13.134045Z" visited="2021-01-17T07:06:12.770487Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-17T07:06:13.134041Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/Jenn-and-Brad.jpg" added="2021-01-17T07:06:21.916293Z" modified="2021-01-17T07:06:22.316472Z" visited="2021-01-17T07:06:21.916296Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-17T07:06:22.316468Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/Fantasque%20Sans%20Mono%20Regular%20Nerd%20Font%20Complete.ttf" added="2021-01-17T07:58:23.816585Z" modified="2021-01-17T07:58:23.816598Z" visited="2021-01-17T07:58:23.816587Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-17T07:58:23.816591Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/Fantasque%20Sans%20Mono%20Regular%20Nerd%20Font%20Complete%20Mono.ttf" added="2021-01-17T07:58:29.568902Z" modified="2021-01-17T07:58:29.568914Z" visited="2021-01-17T07:58:29.568903Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-17T07:58:29.568907Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_luckytuvshee0/wallpaper.png" added="2021-01-17T09:02:32.180567Z" modified="2021-01-17T09:02:32.180587Z" visited="2021-01-17T09:02:32.180570Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-17T09:02:32.180578Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/mechanical-key_2K.jpg" added="2021-01-17T09:07:49.401810Z" modified="2021-01-17T09:07:49.739121Z" visited="2021-01-17T09:07:49.401816Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-17T09:07:49.739117Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/flower_FHD.jpg" added="2021-01-17T09:07:55.949317Z" modified="2021-01-17T09:07:56.366170Z" visited="2021-01-17T09:07:55.949323Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-17T09:07:56.366165Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/raindrops-1_FHD.jpg" added="2021-01-17T09:08:16.887155Z" modified="2021-01-17T09:08:17.223583Z" visited="2021-01-17T09:08:16.887159Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-17T09:08:17.223578Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/raindrops-2_FHD.jpg" added="2021-01-17T09:08:23.375012Z" modified="2021-01-17T09:08:23.783494Z" visited="2021-01-17T09:08:23.375016Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-17T09:08:23.783489Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/raindrops-4_FHD.jpg" added="2021-01-17T09:08:38.494988Z" modified="2021-01-17T09:08:38.884316Z" visited="2021-01-17T09:08:38.494991Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-17T09:08:38.884310Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/Iosevka%20Nerd%20Font%20Complete.ttf" added="2021-01-17T09:32:59.811795Z" modified="2021-01-17T09:32:59.811809Z" visited="2021-01-17T09:32:59.811796Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-17T09:32:59.811802Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/luckytuvshee/Downloads/FantasqueSansMono-Regular.ttf" added="2021-01-17T09:35:18.833282Z" modified="2021-01-17T09:35:18.833294Z" visited="2021-01-17T09:35:18.833283Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-01-17T09:35:18.833288Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

@@ -1,9 +1,0 @@
-# !/bin/bash
-
-pidof mpd || mpd &
-until pids=$(pidof mpd)
-do
-    sleep 1
-done
-sleep 3
-pgrep mpd-mpris || mpd-mpris &
