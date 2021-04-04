@@ -42,6 +42,7 @@
 * rsync (a fast, versatile, remote (and local) file-copying tool)
   * rsync -ah --progress source destination
   * The -a will keep permissions,etc, and -h will be human readable
+* breeze (pacman -S breeze) - for kdenlive color theme 
 
 ## Useful notes
 * set default file manager for browsers 
