@@ -30,7 +30,7 @@ window,
 #PersonalToolbar,
 #navigator-toolbox,
 #sidebar-box {
-  background-color: var(--bg) !important;
+  background-color: var(--base_color1) !important;
   -moz-appearance: none !important;
   background-image: none !important;
   border: none !important;
@@ -386,7 +386,7 @@ You can choose between:
 #navigator-toolbox:hover #forward-button .toolbarbutton-icon,
 #navigator-toolbox:hover #reload-button .toolbarbutton-icon {
   /* transform: rotate(360deg); */
-  width: 28px !important;
+  /* width: 28px !important; */
 }
 
 /* URLbar icons */
