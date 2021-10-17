@@ -55,6 +55,10 @@
 * Get window class name of application using xprop package
 * Disable PC speaker (BEEP) - Blacklisting the pcspkr module will prevent udev from loading it at boot:
 > echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
+* Fix wifi in legacy Intel 
+> /etc/modprobe.d/iwl4965.conf 
+
+> options iwl4965 11n_disable=1
 
 ---
 
