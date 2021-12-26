@@ -45,6 +45,8 @@
 * breeze (pacman -S breeze) - for kdenlive color theme 
 
 ## Useful notes
+* thunar open with command for opening text file in neovim with urxvt
+  > urxvt -e nvim 
 * set default file manager for browsers 
   - `inode/directory=ranger.desktop;thunar.desktop`
   > ~/.local/share/applications
