@@ -1,0 +1,11 @@
+timeout=1
+show_cpu=-3
+show_icon=true
+show_label_freq=true
+show_label_governor=true
+show_warning=true
+keep_compact=false
+one_line=false
+freq_unit=1
+icon_color_freq=false
+

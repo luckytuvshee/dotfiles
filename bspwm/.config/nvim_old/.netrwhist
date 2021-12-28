@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/luckytuvshee/.config/nvim'
+let g:netrw_dirhist_5='/home/luckytuvshee/Programming/gatsby/my_site'
+let g:netrw_dirhist_4='/home/luckytuvshee/Programming/gatsby/my_site/public'
+let g:netrw_dirhist_3='/home/luckytuvshee/Programming/gatsby/my_site'
+let g:netrw_dirhist_2='/home/luckytuvshee/Programming/gatsby/my_site/static'
+let g:netrw_dirhist_1='/home/luckytuvshee/Programming/gatsby/my_site'
+let g:netrw_dirhist_0='/home/luckytuvshee/Programming/gatsby/my_site/static'
+let g:netrw_dirhist_9='/home/luckytuvshee/Programming/gatsby/my_site'
+let g:netrw_dirhist_8='/home/luckytuvshee/Programming/gatsby/my_site/static'
+let g:netrw_dirhist_7='/home/luckytuvshee/Programming/gatsby/my_site'

@@ -10,7 +10,7 @@ configuration {
     background-color: #00000065;
     border-color: #00000000;
     text-color: #EFEFEF;
-    font: "iosevka 15";
+    font: "Fantasque Sans Mono 16";
 }
  
 #window {
@@ -76,5 +76,15 @@ configuration {
     background-color: #00000000;
     expand:     false;
     str:        ":";
-    margin:     0px 0.3em 0em 0em ;
+    margin:     0px 0.3em 0em 0em;
+}
+
+element-text, element-icon {
+    background-color: inherit;
+    text-color:       inherit;
+}
+
+element-icon {
+    vertical-align: 0.5;
+    margin:     0px 1px 0em 0em;
 }

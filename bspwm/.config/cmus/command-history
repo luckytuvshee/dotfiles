@@ -1,18 +1,20 @@
 clear
+add ~/Music/Electronic Music/House/Tropical House/
+add ~/
 update-cache
+add ~/Music/Eurodance/
+cleara
+add ~/Music/Nightcore/
+add ~/Music/J-pop/
+add ~/Music/Electronic Music/House/Progressive House/
 add ~/Music/Eurobeat/
 add ~/Music/Eurobeat/Toho Eurobeat
 pl-create Toho Eurobeat
 add ~/Music/Mix
 pl-create Mix
-add ~/Music/Eurodance/
-add ~/Music/Nightcore/
-add ~/Music/Electronic Music/House/Progressive House/
-add ~/Music/J-pop/
 pl-create J-pop
 add ~/Music/K-pop/
 add ~/Music/Electronic Music/House/Traditional Deep House/
-add ~/Music/Electronic Music/House/Tropical House/
 add ~/Music/Electronic Music/House/Future House/
 add ~/Music/Electronic Music/Electropop/
 pl-create Electropop
