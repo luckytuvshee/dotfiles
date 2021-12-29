@@ -130,8 +130,15 @@ URxvt.urlLauncher:			firefox
 URxvt.underlineURLs:		true
 URxvt.urlButton:			1     
 
-URxvt.resize-font.smaller:  C-j
-URxvt.resize-font.bigger:  	C-k
+! C -> Control
+! M -> Meta (alt)
+! Shift is uppercase letter
+! URxvt.resize-font.bigger:  	C-M-k
+! URxvt.resize-font.smaller:  C-M-j
+URxvt.resize-font.bigger:  	C-K
+URxvt.resize-font.smaller:  C-J
+
+
 
 ! scroll one line
 URxvt.keysym.Shift-Up:		command:\033]720;1\007
@@ -142,3 +149,6 @@ URxvt.keysym.Control-Up:	\033[1;5A
 URxvt.keysym.Control-Down:	\033[1;5B
 URxvt.keysym.Control-Right:	\033[1;5C
 URxvt.keysym.Control-Left:	\033[1;5D
+
+! sxiv
+Sxiv.font: FantasqueSansMono Nerd Font Mono

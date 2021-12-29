@@ -1,1 +1,2 @@
-exec bspwm
+# exec bspwm
+exec startxfce4
