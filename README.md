@@ -61,6 +61,20 @@
 > /etc/modprobe.d/iwl4965.conf 
 
 > options iwl4965 11n_disable=1
+* Intel i915 config 
+> /etc/modprobe.d/i915.conf 
+
+> options i915 enable_guc=2 enable_fbc=1 fastboot=1 
+* Intel xorg config 
+
+> /etc/X11/xorg.conf.d/20-intel.conf 
+```
+Section "Device"
+  Identifier "Intel Graphics"
+  Driver "intel"
+  Option "TearFree" "true"
+EndSection
+```
 
 ---
 
