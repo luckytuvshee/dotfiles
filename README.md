@@ -79,7 +79,7 @@ EndSection
   * adobe-source-han-sans-jp-fonts 
   * adobe-source-han-serif-jp-fonts 
   * otf-ipafont 
-  * ttf-hanazono 
+  * <strike>ttf-hanazono</strike> 
 
 ---
 
