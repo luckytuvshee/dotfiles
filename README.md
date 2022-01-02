@@ -77,8 +77,11 @@ EndSection
 ```
 * Arch Linux Japanese localization (https://wiki.archlinux.org/title/Localization/Japanese) 
 > adobe-source-han-sans-jp-fonts 
+
 > adobe-source-han-serif-jp-fonts 
+
 > otf-ipafont 
+
 > ttf-hanazono 
 
 ---
