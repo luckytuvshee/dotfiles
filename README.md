@@ -85,6 +85,24 @@ EndSection
 
 * arch with xfce, to fix locale when using display manager (such as SDDM and LightDM), add below lines to `/etc/profile`
 
+## Firefox Multiple Profile 
+
+`$ firefox --profilemanager` create profile named LuckyTuvshee
+
+> ~/.local/share/applications/firefox-NAME.desktop 
+
+```
+[Desktop Entry]                                                                                         
+Encoding=UTF-8
+Name=Firefox Work
+GenericName=Web Browser
+Exec=firefox -P LuckyTuvshee -no-remote --class NAMEProfile
+Icon=firefox
+Type=Application
+StartupNotify=True
+StartupWMClass=NAMEProfile
+```
+
 ```
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8                                                         
