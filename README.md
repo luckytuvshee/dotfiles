@@ -102,6 +102,17 @@ Type=Application
 StartupNotify=True
 StartupWMClass=NAMEProfile
 ```
+## Play games with Lutris 
+
+> /etc/pacman.conf 
+
+*uncomment multilib* 
+
+`$ sudo pacman -Syu lutris`
+
+`$ sudo pacman -S --needed lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader` 
+
+*Note for Intel integrated graphics users: Only Skylake and newer Intel CPUs (processors) offer full Vulkan support* 
 
 ```
 export LC_ALL=en_US.UTF-8
