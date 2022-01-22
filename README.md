@@ -85,6 +85,13 @@ EndSection
 
 * arch with xfce, to fix locale when using display manager (such as SDDM and LightDM), add below lines to `/etc/profile`
 
+```
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8                                                         
+export LANGUAGE=en_U
+```
+* zsh seems slow when my repo has untracked files, but it's fine after one push. 
+
 ## Firefox Multiple Profile 
 
 `$ firefox --profilemanager` create profile named LuckyTuvshee
@@ -113,10 +120,3 @@ StartupWMClass=NAMEProfile
 `$ sudo pacman -S --needed lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader` 
 
 *Note for Intel integrated graphics users: Only Skylake and newer Intel CPUs (processors) offer full Vulkan support* 
-
-```
-export LC_ALL=en_US.UTF-8
-export LANG=en_US.UTF-8                                                         
-export LANGUAGE=en_U
-```
-* zsh seems slow when my repo has untracked files, but it's fine after one push. 
