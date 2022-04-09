@@ -1,12 +1,21 @@
 clear
+add ~/Music/J-pop/
+add ~/Music/Electronic Music/Electropop/
+add ~/Music/Electronic Music/House/Progressive House/
+add ~/Music/Electronic Music/House/Modern Deep House/
+P
+add ~/Music/Nightcore
+add ~/Music/Eurodance
+add ~/Music/Electronic Music/House/Future Funk/
+c
+add ~/Music/Rock
+pl-create Future Funk
 add ~/Music/Electronic Music/House/Tropical House/
 add ~/
 update-cache
 add ~/Music/Eurodance/
 cleara
 add ~/Music/Nightcore/
-add ~/Music/J-pop/
-add ~/Music/Electronic Music/House/Progressive House/
 add ~/Music/Eurobeat/
 add ~/Music/Eurobeat/Toho Eurobeat
 pl-create Toho Eurobeat
@@ -16,7 +25,6 @@ pl-create J-pop
 add ~/Music/K-pop/
 add ~/Music/Electronic Music/House/Traditional Deep House/
 add ~/Music/Electronic Music/House/Future House/
-add ~/Music/Electronic Music/Electropop/
 pl-create Electropop
 pl-create Electro Pop
 add ~/Music/Vocaloid/
@@ -31,7 +39,6 @@ set mouse=false
 set mouse=true
 set repeat=true
 set repeat=false
-add ~/Music/Electronic Music/House/Modern Deep House/
 add ~/Music/Electronic Music/Electropop
 add ~/Music/Electronic Music/Hardcore/
 pl-create Hardcore

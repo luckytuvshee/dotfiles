@@ -25,11 +25,11 @@ fi
 
 #### BSPWM configuration ####
 bspc config border_radius                 40
-bspc config window_gap 			  		  10
-bspc config top_padding                   24
-bspc config top_monocle_padding			  0
-bspc config border_width 		  		  2
-bspc config bottom_padding                24
+bspc config window_gap 			  		        10
+bspc config top_padding                   40
+bspc config top_monocle_padding			      0
+bspc config border_width 		  		        2
+bspc config bottom_padding                0
 bspc config left_padding                  0
 bspc config right_padding                 0
 bspc config single_monocle                false
@@ -38,9 +38,9 @@ bspc config split_ratio                   0.50
 bspc config borderless_monocle            true
 bspc config gapless_monocle               true
 bspc config focus_by_distance             true
-bspc config paddingless_monocle  	  	  true
+bspc config paddingless_monocle  	  	    true
 bspc config focus_follows_pointer         true
-bspc config ignore_ewmh_focus 		  	  true
+bspc config ignore_ewmh_focus 		  	    true
 bspc config history_aware_focus           true
 bspc config remove_disabled_monitors      true
 bspc config merge_overlapping_monitors    true
@@ -53,9 +53,25 @@ bspc config pointer_action3 resize_corner
 # bspc config active_border_color \#665c54
 # bspc config focused_border_color \#665c54
 # bspc config normal_border_color \#363836
-bspc config active_border_color '#6099B1'
-bspc config normal_border_color '#0C1115'
+bspc config active_border_color '#0E121E'
+bspc config normal_border_color '#0E121E'
 bspc config focused_border_color '#6099B1'
+
+# Cherry Blossom
+bspc config border_width         2
+bspc config window_gap           10
+bspc config split_ratio          0.50
+
+bspc config focused_border_color "#d7beda"
+bspc config normal_border_color  "#0e121e"
+bspc config active_border_color  "#0e121e"
+
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+bspc config paddingless_monocle  true
+bspc config single_monocle       false
+bspc config focus_follows_pointer true
+# Cherry Blossom
 
 # Rules
 
@@ -71,10 +87,9 @@ bspc desktop -f 1
 
 # AUTOSTART
 setxkbmap -model pc104 -layout us,mn -option grp:alt_shift_toggle & 
-xbacklight -set 90 & 
-feh --bg-fill ~/.wallpaper/mechanical/mechanical-key_2K.jpg &
+xbacklight -set 50 & 
+feh --bg-fill ~/.config/girl_wallpaper.png &
 ~/.config/polybar/launch.sh &
 ~/.config/bspwm/autostart &
 pidof bspswallow || bspswallow &
 xrdb ~/.Xresources & 
-flameshot & 

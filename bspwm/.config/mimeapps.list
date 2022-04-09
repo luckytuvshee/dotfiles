@@ -1,8 +1,19 @@
 [Added Associations]
 inode/directory=ranger.desktop;
-text/plain=vim.desktop;
+text/plain=userapp-urxvt -e nvim-7U15E1.desktop;vim.desktop;
+image/jpeg=sxiv.desktop;
+image/webp=sxiv.desktop;
+image/png=sxiv.desktop;
+image/svg+xml=org.xfce.mousepad.desktop;
+application/octet-stream=xfce4-terminal-emulator.desktop;
+audio/mpeg=org.xfce.Parole.desktop;
+application/xml=userapp-urxvt -e nvim-7U15E1.desktop;
+application/pdf=org.pwmt.zathura-pdf-poppler.desktop;librewolf.desktop;
+application/json=userapp-urxvt -e nvim-7U15E1.desktop;
+video/x-matroska=vlc.desktop;
 
 [Default Applications]
 inode/directory=ranger.desktop;
 x-scheme-handler/http=firefox.desktop;
 x-scheme-handler/https=firefox.desktop;
+x-scheme-handler/postman=Postman.desktop

@@ -5,7 +5,7 @@
 ## Github : @adi1090x
 ## Reddit : @adi1090x
 
-rofi_command="rofi -theme $HOME/.config/rofi/power-menu.rasi"
+rofi_command="rofi -i -theme $HOME/.config/rofi/power-menu.rasi"
 
 uptime=$(uptime -p | sed -e 's/up //g')
 
@@ -28,7 +28,7 @@ case $chosen in
         systemctl reboot
         ;;
     $lock)
-        /home/luckytuvshee/.config/polybar/scripts/lock.sh
+        /home/luckytuvshee/.config/bspwm/scripts/lock.sh
         ;;
     # $suspend)
     #     mpc -q pause

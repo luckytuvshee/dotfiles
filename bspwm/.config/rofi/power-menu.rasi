@@ -1,122 +1,91 @@
 configuration {
-	font:	"VictorMono Nerd Font 12";
-  show-icons: false;
-  drun-display-format: "{name}";
-  disable-history: false;
-  fullscreen: false;
-	hide-scrollbar: true;
-	sidebar-mode: false;
+    display-drun:                   "Apps";
+    display-window:                 "Window";
+    show-icons:true;
 }
-
+ 
 * {
-  background: #281e38ff;
-  background-alt: #29384Fff;
-  foreground: #FEFFF1ff;
-  border: #3A6081ff;
-  border-alt: #715979ff;
-  selected: #eaa6b94C;
-  urgent: #DA4453FF;
+    lines: 15;
+    columns: 1;
+    background-color: #00000065;
+    border-color: #00000000;
+    text-color: #EFEFEF;
+    font: "Fantasque Sans Mono 16";
+}
+ 
+#window {
+    border: 0;
+    border-radius: 4px;
+    padding: 40;
+    width: 650;
+    height: 228;
+}
+ 
+#mainbox {
+    background-color: #00000000;
+    children: [inputbar, listview];
+    spacing: 10px;
+    /*margin: 20%;*/
+    padding: 30px 0;
+    border: 1px;
+    border-color: @base0D;
+}
+ 
+ 
+#listview {
+    background-color: #00000000;
+    fixed-height: 0;
+    border: 0px;
+    spacing: 15px;
+    scrollbar: false;
+    padding: 10px 0 0;
+    layout: horizontal;
+}
+ 
+#element {
+    background-color: #161c21;
+    border: 0;
+    border-radius: 28px;
+    padding: 10 32 10 12;
+}
+ 
+#element selected {
+    background-color: #00a0e6;
+    text-color: #EFEFEF;
+}
+ 
+ 
+#inputbar {
+    children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+    background-color: #00000000;
+}
+ 
+#case-indicator {
+    background-color: #00000000;
+    spacing:    0;
+}
+#entry {
+    background-color: #00000000;
+    spacing:    0;
+}
+#prompt {
+    background-color: #00000000;
+    spacing:    0;
+}
+ 
+#textbox-prompt-colon {
+    background-color: #00000000;
+    expand:     false;
+    str:        ":";
+    margin:     0px 0.3em 0em 0em;
 }
 
-window {
-  transparency:                   "real";
-  background-color:               @background;
-  text-color:                     @foreground;
-  border-radius:                  0px;
-  height:                         200;
-  width:                          620;
-  location:                       center;
-  x-offset:                       5%;
-  y-offset:                       0;
+element-text, element-icon {
+    background-color: inherit;
+    text-color:       inherit;
 }
 
-prompt {
-  enabled: true;
-  padding: 0.5% 0.5% 0.5% 0%;
-	background-color: @background-alt;
-	text-color: @foreground;
-}
-
-textbox-prompt-colon {
-	expand: false;
-	str: "";
-	background-color: @background-alt;
-	text-color: @foreground;
-  padding: 0.5% 0.5% 0.5% 0%;
-}
-
-inputbar {
-	children: 						          [ textbox-prompt-colon, prompt ];
-  background-color:               @background-alt;
-  text-color:                     @foreground;
-  expand:                         false;
-  border:                  		    0% 0% 0% 0.2%;
-  border-radius:                  0% 0% 0% 0%;
-  border-color:                  	@border;
-  margin:                         0% 21.3% 0% 0%;
-  padding:                        0.5%;
-  position:                       center;
-}
-
-listview {
-    background-color:               @background;
-    margin:                         0% 0% 0% 0%;
-    spacing:                        2%;
-    cycle:                          true;
-    dynamic:                        true;
-    layout:                         horizontal;
-}
-
-mainbox {
-    background-color:               @background;
-    children:                       [ inputbar, listview ];
-    spacing:                        3.5%;
-    padding:                        4% 0% 0% 2%;
-}
-
-element {
-    background-color:               @background-alt;
-    text-color:                     @foreground;
-    orientation:                    horizontal;
-    border-radius:                  0%;
-}
-
-element-text {
-	  font:							              "FiraCode 12";
-    expand:                         true;
-    horizontal-align:               0.5;
-    vertical-align:                 0.5;
-    margin:                         2.5% 1% 2.5% 1%;
-    width:                          120;
-}
-
-element normal.urgent,
-element alternate.urgent {
-    background-color:               @urgent;
-    text-color:                     @foreground;
-    border-radius:                  0.2%;
-}
-
-element normal.active,
-element alternate.active {
-    background-color:               @background-alt;
-    text-color:                     @foreground;
-}
-
-element selected {
-    background-color:               @selected;
-    text-color:                     @foreground;
-    border:                  		0% 0% 0% 0.2%;
-    border-radius:                  0%;
-    border-color:                  	@border;
-}
-
-element selected.urgent {
-    background-color:               @urgent;
-    text-color:                     @foreground;
-}
-
-element selected.active {
-    background-color:               @background-alt;
-    color:                          @foreground;
+element-icon {
+    vertical-align: 0.5;
+    margin:     0px 1px 0em 0em;
 }

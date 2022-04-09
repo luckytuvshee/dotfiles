@@ -2,8 +2,8 @@ yellow=8
 red=2
 lab_size_visible=true
 progress_bar_visible=true
-hide_button=false
-label=/home
+hide_button=true
+label=home
 label_visible=true
 mnt=/home
 

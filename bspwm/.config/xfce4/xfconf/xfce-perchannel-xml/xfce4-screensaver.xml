@@ -16,4 +16,12 @@
       <property name="print-stats" type="bool" value="false"/>
     </property>
   </property>
+  <property name="lock" type="empty">
+    <property name="user-switching" type="empty">
+      <property name="enabled" type="bool" value="true"/>
+    </property>
+    <property name="saver-activation" type="empty">
+      <property name="delay" type="int" value="0"/>
+    </property>
+  </property>
 </channel>

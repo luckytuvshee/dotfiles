@@ -6,9 +6,19 @@
 super + Return
 	urxvt
 
+ctrl + alt + f
+	urxvt
+
+# click
+super + w
+	~/scripts/click.sh
+
 # program launcher
 super + d
 	rofi -lines 12 -padding 18 -width 40 -location 0 -show drun -theme ~/.config/rofi/rofi-theme.rasi
+
+super + shift + e
+	thunar 
 
 # Screenshot
 Insert
@@ -24,7 +34,7 @@ ctrl + alt + c
 	urxvt -e cmus
 
 super + l
-	~/.config/polybar/scripts/lock.sh
+	~/.config/bspwm/scripts/lock.sh
 
 # global play pause
 ctrl + alt + g 
@@ -51,7 +61,7 @@ super + p
 #----~ Init ~----#
 
 # make sxhkd reload its configuration files:
-super + Escape
+super + ctrl + Escape
 	pkill -USR1 -x sxhkd
 
 super + shift + p
@@ -138,7 +148,7 @@ super + {_,shift + }{1-9,0}
 #----~ Preselection ~----#
 
 # preselect the direction
-super + ctrl + {Left, Down, Up, Right}
+super + ctrl + {i, j, k, l}
 	bspc node -p {west,south,north,east}
 
 # preselect the ratio
@@ -146,7 +156,7 @@ super + ctrl + {1-9}
 	bspc node -o 0.{1-9}
 
 # cancel the preselection for the focused node
-super + ctrl + space
+super + Escape
 	bspc node -p cancel
 
 # cancel the preselection for the focused desktop
@@ -155,18 +165,30 @@ super + ctrl + shift + space
 
 #----~ Movement/Resizing ~----#
 
+super + !button{1-3}
+    bspc pointer -t %i %i
+
+super + button{1,2,3}
+    bspc grab_pointer {move,resize_side,resize_corner}
+
+super + !button{1,2,3}
+    bspc {track_pointer,track_pointer,track_pointer} %i %i
+
+super + @button{1,2,3}
+    bspc {ungrab_pointer,ungrab_pointer,ungrab_pointer}
+
 # resize
-super + e : {Left, Down, Up, Right}
-    bspwm_resize expand {west,south,north,east} 25
+#super + alt : {h, j, k, l}
+#    bspwm_resize expand {west,south,north,east} 25
 
-super + shift + e : {Left, Down, Up, Right}
-    bspwm_resize contract {east,north,south,west} 25
+#super + shift + e : {Left, Down, Up, Right}
+#    bspwm_resize contract {east,north,south,west} 25
 
-super + alt + {Left, Down, Up, Right}
-    bspwm_resize expand {west,south,north,east} 25
+#super + alt + {Left, Down, Up, Right}
+#    bspwm_resize expand {west,south,north,east} 25
 
-super + alt + ctrl + {Left, Down, Up, Right}
-    bspwm_resize contract {east,north,south,west} 25
+#super + alt + ctrl + {Left, Down, Up, Right}
+#    bspwm_resize contract {east,north,south,west} 25
 
 # move a floating window
 super + alt + {h, j, k, l}

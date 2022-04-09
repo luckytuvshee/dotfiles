@@ -1,0 +1,1 @@
+/home/luckytuvshee/.config/ranger/plugins/ranger_devicons/init.py

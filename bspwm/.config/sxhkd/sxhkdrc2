@@ -1,0 +1,18 @@
+# https://gitlab.com/cunidev/gestures/-/wikis/xdotool-list-of-key-codes
+# use xev to get key name
+#ctrl + alt + Prior
+#    xdotool keydown 0xff50
+
+#ctrl + alt + Next
+#    xdotool keydown 0xff57
+
+
+~button2
+    echo -n | xsel -n -ia
+~control + c
+    echo -n | xsel -n -i
+~control + shift + c
+    echo -n | xsel -n -i
+~control + x
+    echo -n | xsel -n -i 
+

@@ -28,4 +28,10 @@
       <property name="Client4_PerScreen" type="empty"/>
     </property>
   </property>
+  <property name="chooser" type="empty">
+    <property name="AlwaysDisplay" type="bool" value="false"/>
+  </property>
+  <property name="shutdown" type="empty">
+    <property name="LockScreen" type="bool" value="false"/>
+  </property>
 </channel>
